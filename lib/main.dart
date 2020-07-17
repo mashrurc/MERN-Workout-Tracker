@@ -13,572 +13,573 @@ class SignUpPage extends StatelessWidget {
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        home: Scaffold(
-        backgroundColor: const Color(0xffffffff),
-        body: Stack(
-          children: <Widget>[
-            Component11(),
-            Transform.translate(
-              offset: Offset(-859.97, 175.5),
-              child: Stack(
-                children: <Widget>[
-                  Transform.translate(
-                    offset: Offset(881.97, 140.5),
-                    child: Text(
-                      'Sign up to Commuter',
-                      style: TextStyle(
-                        fontFamily: 'AvertaStd ☞',
-                        fontSize: 16,
-                        color: const Color(0xffffffff),
-                        fontWeight: FontWeight.w700,
-                      ),
-                      textAlign: TextAlign.left,
+    return Scaffold(
+      backgroundColor: const Color(0xffffffff),
+      body: Stack(
+        children: <Widget>[
+          Transform.translate(
+            offset: Offset(0.0, 38.0),
+            child: Component11(),
+          ),
+          Transform.translate(
+            offset: Offset(-859.97, 225.5),
+            child: Stack(
+              children: <Widget>[
+                Transform.translate(
+                  offset: Offset(881.97, 140.5),
+                  child: Text(
+                    'Sign up to Commuter',
+                    style: TextStyle(
+                      fontFamily: 'AvertaStd ☞',
+                      fontSize: 16,
+                      color: const Color(0xffffffff),
+                      fontWeight: FontWeight.w700,
                     ),
+                    textAlign: TextAlign.left,
                   ),
-                  Transform.translate(
-                    offset: Offset(881.97, 172.5),
-                    child: Container(
-                      width: 216.0,
-                      height: 38.0,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(15.0),
-                        color: const Color(0xff2f4294),
-                      ),
-                    ),
-                  ),
-                  Transform.translate(
-                    offset: Offset(882.97, 350.5),
-                    child: Container(
-                      width: 331.0,
-                      height: 38.0,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(15.0),
-                        color: const Color(0xffe8e8e8),
-                        boxShadow: [
-                          BoxShadow(
-                            color: const Color(0x24000000),
-                            offset: Offset(0, 2),
-                            blurRadius: 6,
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                  Transform.translate(
-                    offset: Offset(882.97, 431.5),
-                    child: Container(
-                      width: 331.0,
-                      height: 37.0,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(15.0),
-                        color: const Color(0xffe8e8e8),
-                        boxShadow: [
-                          BoxShadow(
-                            color: const Color(0x24000000),
-                            offset: Offset(0, 2),
-                            blurRadius: 6,
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                  Transform.translate(
-                    offset: Offset(882.97, 270.5),
-                    child: Container(
-                      width: 152.0,
-                      height: 38.0,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(15.0),
-                        color: const Color(0xffe8e8e8),
-                        boxShadow: [
-                          BoxShadow(
-                            color: const Color(0x24000000),
-                            offset: Offset(0, 2),
-                            blurRadius: 6,
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                  Transform.translate(
-                    offset: Offset(1060.97, 270.5),
-                    child: Container(
-                      width: 153.0,
-                      height: 38.0,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(15.0),
-                        color: const Color(0xffe8e8e8),
-                        boxShadow: [
-                          BoxShadow(
-                            color: const Color(0x24000000),
-                            offset: Offset(0, 2),
-                            blurRadius: 6,
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                  Transform.translate(
-                    offset: Offset(882.21, 231.19),
-                    child: SvgPicture.string(
-                      _svg_9mw38u,
-                      allowDrawingOutsideViewBox: true,
-                    ),
-                  ),
-                  Transform.translate(
-                    offset: Offset(1118.97, 172.5),
-                    child: Container(
-                      width: 36.0,
-                      height: 38.0,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(15.0),
-                        color: const Color(0xff2f4294),
-                      ),
-                    ),
-                  ),
-                  Transform.translate(
-                    offset: Offset(1176.97, 172.5),
-                    child: Container(
-                      width: 36.0,
-                      height: 38.0,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(15.0),
-                        color: const Color(0xff2f4294),
-                      ),
-                    ),
-                  ),
-                  Transform.translate(
-                    offset: Offset(1038.97, 221.5),
-                    child: Text(
-                      'OR',
-                      style: TextStyle(
-                        fontFamily: 'Averta Standard',
-                        fontSize: 12,
-                        color: const Color(0xffffffff),
-                      ),
-                      textAlign: TextAlign.left,
-                    ),
-                  ),
-                  Transform.translate(
-                    offset: Offset(882.97, 245.5),
-                    child: Text(
-                      'First Name',
-                      style: TextStyle(
-                        fontFamily: 'AvertaStd ☞',
-                        fontSize: 14,
-                        color: const Color(0xffffffff),
-                        fontWeight: FontWeight.w700,
-                      ),
-                      textAlign: TextAlign.left,
-                    ),
-                  ),
-                  Transform.translate(
-                    offset: Offset(1060.97, 245.5),
-                    child: Text(
-                      'Last Name',
-                      style: TextStyle(
-                        fontFamily: 'AvertaStd ☞',
-                        fontSize: 14,
-                        color: const Color(0xffffffff),
-                        fontWeight: FontWeight.w700,
-                      ),
-                      textAlign: TextAlign.left,
-                    ),
-                  ),
-                  Transform.translate(
-                    offset: Offset(883.97, 324.5),
-                    child: Text(
-                      'Email Address',
-                      style: TextStyle(
-                        fontFamily: 'AvertaStd ☞',
-                        fontSize: 14,
-                        color: const Color(0xffffffff),
-                        fontWeight: FontWeight.w700,
-                      ),
-                      textAlign: TextAlign.left,
-                    ),
-                  ),
-                  Transform.translate(
-                    offset: Offset(883.97, 405.5),
-                    child: Text(
-                      'Password',
-                      style: TextStyle(
-                        fontFamily: 'AvertaStd ☞',
-                        fontSize: 14,
-                        color: const Color(0xffffffff),
-                        fontWeight: FontWeight.w700,
-                      ),
-                      textAlign: TextAlign.left,
-                    ),
-                  ),
-                  Transform.translate(
-                    offset: Offset(884.41, 494.82),
-                    child: Stack(
-                      children: <Widget>[
-                        Transform.translate(
-                          offset: Offset(0.0, 0.0),
-                          child: Stack(
-                            children: <Widget>[
-                              Transform.translate(
-                                offset: Offset(-0.43, -0.31),
-                                child: Container(
-                                  width: 329.0,
-                                  height: 38.0,
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(15.0),
-                                    color: const Color(0xff2f4294),
-                                  ),
-                                ),
-                              ),
-                              Transform.translate(
-                                offset: Offset(103.88, 6.28),
-                                child: Stack(
-                                  children: <Widget>[
-                                    Transform.translate(
-                                      offset: Offset(-0.31, 0.41),
-                                      child: Text(
-                                        'Create Account',
-                                        style: TextStyle(
-                                          fontFamily: 'Segoe UI',
-                                          fontSize: 16,
-                                          color: const Color(0xff2f4294),
-                                          fontWeight: FontWeight.w700,
-                                        ),
-                                        textAlign: TextAlign.left,
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                  Transform.translate(
-                    offset: Offset(884.41, 494.82),
-                    child: Stack(
-                      children: <Widget>[
-                        Transform.translate(
-                          offset: Offset(0.0, 0.0),
-                          child: Stack(
-                            children: <Widget>[
-                              Transform.translate(
-                                offset: Offset(-0.43, -0.31),
-                                child: Container(
-                                  width: 329.0,
-                                  height: 38.0,
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(15.0),
-                                    color: const Color(0xff2f4294),
-                                    boxShadow: [
-                                      BoxShadow(
-                                        color: const Color(0xff283e9d),
-                                        offset: Offset(0, 3),
-                                        blurRadius: 6,
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                              Transform.translate(
-                                offset: Offset(103.88, 6.28),
-                                child: Stack(
-                                  children: <Widget>[
-                                    Transform.translate(
-                                      offset: Offset(-0.31, 0.41),
-                                      child: Text(
-                                        'Create Account',
-                                        style: TextStyle(
-                                          fontFamily: 'Segoe UI',
-                                          fontSize: 16,
-                                          color: const Color(0xff2f4294),
-                                          fontWeight: FontWeight.w700,
-                                        ),
-                                        textAlign: TextAlign.left,
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            Transform.translate(
-              offset: Offset(57.0, 6.41),
-              child: Stack(
-                children: <Widget>[
-                  Transform.translate(
-                    offset: Offset(42.0, 722.0),
-                    child: Stack(
-                      children: <Widget>[
-                        Transform.translate(
-                          offset: Offset(0.0, 0.0),
-                          child: Stack(
-                            children: <Widget>[
-                              Transform.translate(
-                                offset: Offset(0.0, 0.0),
-                                child: Stack(
-                                  children: <Widget>[
-                                    Transform.translate(
-                                      offset: Offset(0.0, -0.41),
-                                      child: Text(
-                                        'Already a member?',
-                                        style: TextStyle(
-                                          fontFamily: 'AvertaStd ☞',
-                                          fontSize: 14,
-                                          color: const Color(0xfffffefe),
-                                          fontWeight: FontWeight.w700,
-                                        ),
-                                        textAlign: TextAlign.left,
-                                      ),
-                                    ),
-                                    Transform.translate(
-                                      offset: Offset(133.0, -0.41),
-                                      child: Text(
-                                        'Sign in',
-                                        style: TextStyle(
-                                          fontFamily: 'AvertaStd ☞',
-                                          fontSize: 14,
-                                          color: const Color(0xff2f4294),
-                                          fontWeight: FontWeight.w700,
-                                        ),
-                                        textAlign: TextAlign.left,
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            Transform.translate(
-              offset: Offset(33.0, 34.0),
-              child: Text(
-                'Join Commuter.\nBecome a better you.',
-                style: TextStyle(
-                  fontFamily: 'AvertaStd ☞',
-                  fontSize: 31,
-                  color: const Color(0xffffffff),
-                  fontWeight: FontWeight.w700,
                 ),
-                textAlign: TextAlign.left,
-              ),
+                Transform.translate(
+                  offset: Offset(881.97, 172.5),
+                  child: Container(
+                    width: 216.0,
+                    height: 38.0,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15.0),
+                      color: const Color(0xff2f4294),
+                    ),
+                  ),
+                ),
+                Transform.translate(
+                  offset: Offset(882.97, 350.5),
+                  child: Container(
+                    width: 331.0,
+                    height: 38.0,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15.0),
+                      color: const Color(0xffe8e8e8),
+                      boxShadow: [
+                        BoxShadow(
+                          color: const Color(0x24000000),
+                          offset: Offset(0, 2),
+                          blurRadius: 6,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Transform.translate(
+                  offset: Offset(882.97, 431.5),
+                  child: Container(
+                    width: 331.0,
+                    height: 37.0,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15.0),
+                      color: const Color(0xffe8e8e8),
+                      boxShadow: [
+                        BoxShadow(
+                          color: const Color(0x24000000),
+                          offset: Offset(0, 2),
+                          blurRadius: 6,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Transform.translate(
+                  offset: Offset(882.97, 270.5),
+                  child: Container(
+                    width: 152.0,
+                    height: 38.0,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15.0),
+                      color: const Color(0xffe8e8e8),
+                      boxShadow: [
+                        BoxShadow(
+                          color: const Color(0x24000000),
+                          offset: Offset(0, 2),
+                          blurRadius: 6,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Transform.translate(
+                  offset: Offset(1060.97, 270.5),
+                  child: Container(
+                    width: 153.0,
+                    height: 38.0,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15.0),
+                      color: const Color(0xffe8e8e8),
+                      boxShadow: [
+                        BoxShadow(
+                          color: const Color(0x24000000),
+                          offset: Offset(0, 2),
+                          blurRadius: 6,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Transform.translate(
+                  offset: Offset(882.21, 231.19),
+                  child: SvgPicture.string(
+                    _svg_9mw38u,
+                    allowDrawingOutsideViewBox: true,
+                  ),
+                ),
+                Transform.translate(
+                  offset: Offset(1118.97, 172.5),
+                  child: Container(
+                    width: 36.0,
+                    height: 38.0,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15.0),
+                      color: const Color(0xff2f4294),
+                    ),
+                  ),
+                ),
+                Transform.translate(
+                  offset: Offset(1176.97, 172.5),
+                  child: Container(
+                    width: 36.0,
+                    height: 38.0,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15.0),
+                      color: const Color(0xff2f4294),
+                    ),
+                  ),
+                ),
+                Transform.translate(
+                  offset: Offset(1038.97, 221.5),
+                  child: Text(
+                    'OR',
+                    style: TextStyle(
+                      fontFamily: 'Averta Standard',
+                      fontSize: 12,
+                      color: const Color(0xffffffff),
+                    ),
+                    textAlign: TextAlign.left,
+                  ),
+                ),
+                Transform.translate(
+                  offset: Offset(882.97, 245.5),
+                  child: Text(
+                    'First Name',
+                    style: TextStyle(
+                      fontFamily: 'AvertaStd ☞',
+                      fontSize: 14,
+                      color: const Color(0xffffffff),
+                      fontWeight: FontWeight.w700,
+                    ),
+                    textAlign: TextAlign.left,
+                  ),
+                ),
+                Transform.translate(
+                  offset: Offset(1060.97, 245.5),
+                  child: Text(
+                    'Last Name',
+                    style: TextStyle(
+                      fontFamily: 'AvertaStd ☞',
+                      fontSize: 14,
+                      color: const Color(0xffffffff),
+                      fontWeight: FontWeight.w700,
+                    ),
+                    textAlign: TextAlign.left,
+                  ),
+                ),
+                Transform.translate(
+                  offset: Offset(883.97, 324.5),
+                  child: Text(
+                    'Email Address',
+                    style: TextStyle(
+                      fontFamily: 'AvertaStd ☞',
+                      fontSize: 14,
+                      color: const Color(0xffffffff),
+                      fontWeight: FontWeight.w700,
+                    ),
+                    textAlign: TextAlign.left,
+                  ),
+                ),
+                Transform.translate(
+                  offset: Offset(883.97, 405.5),
+                  child: Text(
+                    'Password',
+                    style: TextStyle(
+                      fontFamily: 'AvertaStd ☞',
+                      fontSize: 14,
+                      color: const Color(0xffffffff),
+                      fontWeight: FontWeight.w700,
+                    ),
+                    textAlign: TextAlign.left,
+                  ),
+                ),
+                Transform.translate(
+                  offset: Offset(884.41, 494.82),
+                  child: Stack(
+                    children: <Widget>[
+                      Transform.translate(
+                        offset: Offset(0.0, 0.0),
+                        child: Stack(
+                          children: <Widget>[
+                            Transform.translate(
+                              offset: Offset(-0.43, -0.31),
+                              child: Container(
+                                width: 329.0,
+                                height: 38.0,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(15.0),
+                                  color: const Color(0xff2f4294),
+                                ),
+                              ),
+                            ),
+                            Transform.translate(
+                              offset: Offset(103.88, 6.28),
+                              child: Stack(
+                                children: <Widget>[
+                                  Transform.translate(
+                                    offset: Offset(-0.31, 0.41),
+                                    child: Text(
+                                      'Create Account',
+                                      style: TextStyle(
+                                        fontFamily: 'Segoe UI',
+                                        fontSize: 16,
+                                        color: const Color(0xff2f4294),
+                                        fontWeight: FontWeight.w700,
+                                      ),
+                                      textAlign: TextAlign.left,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Transform.translate(
+                  offset: Offset(884.41, 494.82),
+                  child: Stack(
+                    children: <Widget>[
+                      Transform.translate(
+                        offset: Offset(0.0, 0.0),
+                        child: Stack(
+                          children: <Widget>[
+                            Transform.translate(
+                              offset: Offset(-0.43, -0.31),
+                              child: Container(
+                                width: 329.0,
+                                height: 38.0,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(15.0),
+                                  color: const Color(0xff2f4294),
+                                  boxShadow: [
+                                    BoxShadow(
+                                      color: const Color(0xff283e9d),
+                                      offset: Offset(0, 3),
+                                      blurRadius: 6,
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Transform.translate(
+                              offset: Offset(103.88, 6.28),
+                              child: Stack(
+                                children: <Widget>[
+                                  Transform.translate(
+                                    offset: Offset(-0.31, 0.41),
+                                    child: Text(
+                                      'Create Account',
+                                      style: TextStyle(
+                                        fontFamily: 'Segoe UI',
+                                        fontSize: 16,
+                                        color: const Color(0xff2f4294),
+                                        fontWeight: FontWeight.w700,
+                                      ),
+                                      textAlign: TextAlign.left,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
             ),
-            Transform.translate(
-              offset: Offset(-56.33, 127.0),
-              child: Stack(
-                children: <Widget>[
-                  Transform.translate(
-                    offset: Offset(78.09, 8.63),
-                    child: Stack(
-                      children: <Widget>[
-                        SvgPicture.string(
-                          _svg_joch8g,
+          ),
+          Transform.translate(
+            offset: Offset(57.0, 56.41),
+            child: Stack(
+              children: <Widget>[
+                Transform.translate(
+                  offset: Offset(42.0, 722.0),
+                  child: Stack(
+                    children: <Widget>[
+                      Transform.translate(
+                        offset: Offset(0.0, 0.0),
+                        child: Stack(
+                          children: <Widget>[
+                            Transform.translate(
+                              offset: Offset(0.0, 0.0),
+                              child: Stack(
+                                children: <Widget>[
+                                  Transform.translate(
+                                    offset: Offset(0.0, -0.41),
+                                    child: Text(
+                                      'Already a member?',
+                                      style: TextStyle(
+                                        fontFamily: 'AvertaStd ☞',
+                                        fontSize: 14,
+                                        color: const Color(0xfffffefe),
+                                        fontWeight: FontWeight.w700,
+                                      ),
+                                      textAlign: TextAlign.left,
+                                    ),
+                                  ),
+                                  Transform.translate(
+                                    offset: Offset(133.0, -0.41),
+                                    child: Text(
+                                      'Sign in',
+                                      style: TextStyle(
+                                        fontFamily: 'AvertaStd ☞',
+                                        fontSize: 14,
+                                        color: const Color(0xff2f4294),
+                                        fontWeight: FontWeight.w700,
+                                      ),
+                                      textAlign: TextAlign.left,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(22.0, 104.0),
+            child: Text(
+              'Join Commuter.\nBecome a better you.',
+              style: TextStyle(
+                fontFamily: 'AvertaStd ☞',
+                fontSize: 31,
+                color: const Color(0xffffffff),
+                fontWeight: FontWeight.w700,
+              ),
+              textAlign: TextAlign.left,
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(-56.33, 175.0),
+            child: Stack(
+              children: <Widget>[
+                Transform.translate(
+                  offset: Offset(78.09, 8.63),
+                  child: Stack(
+                    children: <Widget>[
+                      SvgPicture.string(
+                        _svg_joch8g,
+                        allowDrawingOutsideViewBox: true,
+                      ),
+                      Transform.translate(
+                        offset: Offset(70.05, 146.17),
+                        child: Container(
+                          width: 0.0,
+                          height: 0.0,
+                          decoration: BoxDecoration(
+                            borderRadius:
+                                BorderRadius.all(Radius.elliptical(0.0, 0.0)),
+                            border: Border.all(
+                                width: 1.0, color: const Color(0xffc1272d)),
+                          ),
+                        ),
+                      ),
+                      Transform.translate(
+                        offset: Offset(60.84, 84.95),
+                        child: Container(
+                          width: 5.1,
+                          height: 42.1,
+                          decoration: BoxDecoration(
+                            color: const Color(0xff29397b),
+                          ),
+                        ),
+                      ),
+                      Transform.translate(
+                        offset: Offset(2.2, 71.92),
+                        child: SvgPicture.string(
+                          _svg_c3occa,
                           allowDrawingOutsideViewBox: true,
                         ),
-                        Transform.translate(
-                          offset: Offset(70.05, 146.17),
-                          child: Container(
-                            width: 0.0,
-                            height: 0.0,
-                            decoration: BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.elliptical(0.0, 0.0)),
-                              border: Border.all(
-                                  width: 1.0, color: const Color(0xffc1272d)),
-                            ),
+                      ),
+                      Transform.translate(
+                        offset: Offset(28.14, 126.07),
+                        child: Container(
+                          width: 6.3,
+                          height: 6.0,
+                          decoration: BoxDecoration(
+                            borderRadius:
+                                BorderRadius.all(Radius.elliptical(3.13, 2.98)),
+                            color: const Color(0x1a000000),
                           ),
                         ),
-                        Transform.translate(
-                          offset: Offset(60.84, 84.95),
-                          child: Container(
-                            width: 5.1,
-                            height: 42.1,
-                            decoration: BoxDecoration(
-                              color: const Color(0xff29397b),
-                            ),
+                      ),
+                      Transform.translate(
+                        offset: Offset(27.75, 126.07),
+                        child: Container(
+                          width: 6.3,
+                          height: 6.0,
+                          decoration: BoxDecoration(
+                            borderRadius:
+                                BorderRadius.all(Radius.elliptical(3.13, 2.98)),
+                            color: const Color(0xff535461),
                           ),
                         ),
-                        Transform.translate(
-                          offset: Offset(2.2, 71.92),
-                          child: SvgPicture.string(
-                            _svg_c3occa,
-                            allowDrawingOutsideViewBox: true,
+                      ),
+                      Transform.translate(
+                        offset: Offset(131.82, 125.79),
+                        child: Container(
+                          width: 6.3,
+                          height: 6.0,
+                          decoration: BoxDecoration(
+                            borderRadius:
+                                BorderRadius.all(Radius.elliptical(3.13, 2.98)),
+                            color: const Color(0x1a000000),
                           ),
                         ),
-                        Transform.translate(
-                          offset: Offset(28.14, 126.07),
-                          child: Container(
-                            width: 6.3,
-                            height: 6.0,
-                            decoration: BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.elliptical(3.13, 2.98)),
-                              color: const Color(0x1a000000),
-                            ),
+                      ),
+                      Transform.translate(
+                        offset: Offset(132.02, 126.17),
+                        child: Container(
+                          width: 6.3,
+                          height: 6.0,
+                          decoration: BoxDecoration(
+                            borderRadius:
+                                BorderRadius.all(Radius.elliptical(3.13, 2.98)),
+                            color: const Color(0xff535461),
                           ),
                         ),
-                        Transform.translate(
-                          offset: Offset(27.75, 126.07),
-                          child: Container(
-                            width: 6.3,
-                            height: 6.0,
-                            decoration: BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.elliptical(3.13, 2.98)),
-                              color: const Color(0xff535461),
-                            ),
+                      ),
+                      Transform.translate(
+                        offset: Offset(73.18, 120.12),
+                        child: Container(
+                          width: 12.5,
+                          height: 11.9,
+                          decoration: BoxDecoration(
+                            borderRadius:
+                                BorderRadius.all(Radius.elliptical(6.27, 5.95)),
+                            color: const Color(0x1a000000),
                           ),
                         ),
-                        Transform.translate(
-                          offset: Offset(131.82, 125.79),
-                          child: Container(
-                            width: 6.3,
-                            height: 6.0,
-                            decoration: BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.elliptical(3.13, 2.98)),
-                              color: const Color(0x1a000000),
-                            ),
+                      ),
+                      Transform.translate(
+                        offset: Offset(73.57, 120.12),
+                        child: Container(
+                          width: 12.5,
+                          height: 11.9,
+                          decoration: BoxDecoration(
+                            borderRadius:
+                                BorderRadius.all(Radius.elliptical(6.27, 5.95)),
+                            color: const Color(0xff535461),
                           ),
                         ),
-                        Transform.translate(
-                          offset: Offset(132.02, 126.17),
-                          child: Container(
-                            width: 6.3,
-                            height: 6.0,
-                            decoration: BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.elliptical(3.13, 2.98)),
-                              color: const Color(0xff535461),
-                            ),
+                      ),
+                      Transform.translate(
+                        offset: Offset(56.46, 0.47),
+                        child: SvgPicture.string(
+                          _svg_u61q6b,
+                          allowDrawingOutsideViewBox: true,
+                        ),
+                      ),
+                      Transform.translate(
+                        offset: Offset(73.27, 132.55),
+                        child: Container(
+                          width: 14.7,
+                          height: 4.4,
+                          decoration: BoxDecoration(
+                            color: const Color(0xff2f4294),
                           ),
                         ),
-                        Transform.translate(
-                          offset: Offset(73.18, 120.12),
-                          child: Container(
-                            width: 12.5,
-                            height: 11.9,
-                            decoration: BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.elliptical(6.27, 5.95)),
-                              color: const Color(0x1a000000),
-                            ),
+                      ),
+                      Transform.translate(
+                        offset: Offset(73.27, 132.55),
+                        child: Container(
+                          width: 14.7,
+                          height: 4.4,
+                          decoration: BoxDecoration(
+                            color: const Color(0x1a29397b),
                           ),
                         ),
-                        Transform.translate(
-                          offset: Offset(73.57, 120.12),
-                          child: Container(
-                            width: 12.5,
-                            height: 11.9,
-                            decoration: BoxDecoration(
-                              borderRadius:
-                                  BorderRadius.all(Radius.elliptical(6.27, 5.95)),
-                              color: const Color(0xff535461),
-                            ),
-                          ),
+                      ),
+                      Transform.translate(
+                        offset: Offset(66.3, 122.67),
+                        child: SvgPicture.string(
+                          _svg_tbodbx,
+                          allowDrawingOutsideViewBox: true,
                         ),
-                        Transform.translate(
-                          offset: Offset(56.46, 0.47),
-                          child: SvgPicture.string(
-                            _svg_u61q6b,
-                            allowDrawingOutsideViewBox: true,
-                          ),
-                        ),
-                        Transform.translate(
-                          offset: Offset(73.27, 132.55),
-                          child: Container(
-                            width: 14.7,
-                            height: 4.4,
-                            decoration: BoxDecoration(
-                              color: const Color(0xff2f4294),
-                            ),
-                          ),
-                        ),
-                        Transform.translate(
-                          offset: Offset(73.27, 132.55),
-                          child: Container(
-                            width: 14.7,
-                            height: 4.4,
-                            decoration: BoxDecoration(
-                              color: const Color(0x1a29397b),
-                            ),
-                          ),
-                        ),
-                        Transform.translate(
-                          offset: Offset(66.3, 122.67),
-                          child: SvgPicture.string(
-                            _svg_tbodbx,
-                            allowDrawingOutsideViewBox: true,
-                          ),
-                        ),
-                      ],
-                    ),
+                      ),
+                    ],
                   ),
-                ],
-              ),
+                ),
+              ],
             ),
-            Transform.translate(
-              offset: Offset(265.0, 355.0),
-              child:
-                  // Adobe XD layer: '152-1525702_google-…' (shape)
-                  Container(
-                width: 24.0,
-                height: 24.0,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(104.0),
-                  image: DecorationImage(
-                    image: const AssetImage(''),
-                    fit: BoxFit.fill,
-                  ),
+          ),
+          Transform.translate(
+            offset: Offset(265.0, 355.0),
+            child:
+                // Adobe XD layer: '152-1525702_google-…' (shape)
+                Container(
+              width: 24.0,
+              height: 24.0,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(104.0),
+                image: DecorationImage(
+                  image: const AssetImage(''),
+                  fit: BoxFit.fill,
                 ),
               ),
             ),
-            Transform.translate(
-              offset: Offset(323.0, 357.0),
-              child:
-                  // Adobe XD layer: 'unnamed' (shape)
-                  Container(
-                width: 26.0,
-                height: 21.0,
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: const AssetImage(''),
-                    fit: BoxFit.fill,
-                  ),
+          ),
+          Transform.translate(
+            offset: Offset(323.0, 357.0),
+            child:
+                // Adobe XD layer: 'unnamed' (shape)
+                Container(
+              width: 26.0,
+              height: 21.0,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: const AssetImage(''),
+                  fit: BoxFit.fill,
                 ),
               ),
             ),
-            Transform.translate(
-              offset: Offset(96.0, 671.0),
-              child: Text(
-                'Create Account',
-                style: TextStyle(
-                  fontFamily: 'AvertaStd ☞',
-                  fontSize: 25,
-                  color: const Color(0xffffffff),
-                  fontWeight: FontWeight.w700,
-                ),
-                textAlign: TextAlign.left,
+          ),
+          Transform.translate(
+            offset: Offset(96.0, 721.0),
+            child: Text(
+              'Create Account',
+              style: TextStyle(
+                fontFamily: 'AvertaStd ☞',
+                fontSize: 25,
+                color: const Color(0xffffffff),
+                fontWeight: FontWeight.w700,
               ),
+              textAlign: TextAlign.left,
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
