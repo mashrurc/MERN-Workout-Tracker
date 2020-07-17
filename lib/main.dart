@@ -1,89 +1,578 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/page_link.dart';
-import './Page2.dart';
+import './Component11.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 void main() {
-  runApp(Page1());
+  runApp(SignUpPage());
 }
 
-class Page1 extends StatelessWidget {
+class SignUpPage extends StatelessWidget {
+  SignUpPage({
+    Key key,
+  }) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
+        home: Scaffold(
         backgroundColor: const Color(0xffffffff),
         body: Stack(
           children: <Widget>[
+            Component11(),
             Transform.translate(
-              offset: Offset(68.0, 31.0),
-              child: Container(
-                width: 225.0,
-                height: 562.0,
-                decoration: BoxDecoration(
-                  color: const Color(0xffffffff),
-                  border:
-                      Border.all(width: 1.0, color: const Color(0xff707070)),
-                ),
+              offset: Offset(-859.97, 175.5),
+              child: Stack(
+                children: <Widget>[
+                  Transform.translate(
+                    offset: Offset(881.97, 140.5),
+                    child: Text(
+                      'Sign up to Commuter',
+                      style: TextStyle(
+                        fontFamily: 'AvertaStd ☞',
+                        fontSize: 16,
+                        color: const Color(0xffffffff),
+                        fontWeight: FontWeight.w700,
+                      ),
+                      textAlign: TextAlign.left,
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(881.97, 172.5),
+                    child: Container(
+                      width: 216.0,
+                      height: 38.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(15.0),
+                        color: const Color(0xff2f4294),
+                      ),
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(882.97, 350.5),
+                    child: Container(
+                      width: 331.0,
+                      height: 38.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(15.0),
+                        color: const Color(0xffe8e8e8),
+                        boxShadow: [
+                          BoxShadow(
+                            color: const Color(0x24000000),
+                            offset: Offset(0, 2),
+                            blurRadius: 6,
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(882.97, 431.5),
+                    child: Container(
+                      width: 331.0,
+                      height: 37.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(15.0),
+                        color: const Color(0xffe8e8e8),
+                        boxShadow: [
+                          BoxShadow(
+                            color: const Color(0x24000000),
+                            offset: Offset(0, 2),
+                            blurRadius: 6,
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(882.97, 270.5),
+                    child: Container(
+                      width: 152.0,
+                      height: 38.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(15.0),
+                        color: const Color(0xffe8e8e8),
+                        boxShadow: [
+                          BoxShadow(
+                            color: const Color(0x24000000),
+                            offset: Offset(0, 2),
+                            blurRadius: 6,
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(1060.97, 270.5),
+                    child: Container(
+                      width: 153.0,
+                      height: 38.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(15.0),
+                        color: const Color(0xffe8e8e8),
+                        boxShadow: [
+                          BoxShadow(
+                            color: const Color(0x24000000),
+                            offset: Offset(0, 2),
+                            blurRadius: 6,
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(882.21, 231.19),
+                    child: SvgPicture.string(
+                      _svg_9mw38u,
+                      allowDrawingOutsideViewBox: true,
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(1118.97, 172.5),
+                    child: Container(
+                      width: 36.0,
+                      height: 38.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(15.0),
+                        color: const Color(0xff2f4294),
+                      ),
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(1176.97, 172.5),
+                    child: Container(
+                      width: 36.0,
+                      height: 38.0,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(15.0),
+                        color: const Color(0xff2f4294),
+                      ),
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(1038.97, 221.5),
+                    child: Text(
+                      'OR',
+                      style: TextStyle(
+                        fontFamily: 'Averta Standard',
+                        fontSize: 12,
+                        color: const Color(0xffffffff),
+                      ),
+                      textAlign: TextAlign.left,
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(882.97, 245.5),
+                    child: Text(
+                      'First Name',
+                      style: TextStyle(
+                        fontFamily: 'AvertaStd ☞',
+                        fontSize: 14,
+                        color: const Color(0xffffffff),
+                        fontWeight: FontWeight.w700,
+                      ),
+                      textAlign: TextAlign.left,
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(1060.97, 245.5),
+                    child: Text(
+                      'Last Name',
+                      style: TextStyle(
+                        fontFamily: 'AvertaStd ☞',
+                        fontSize: 14,
+                        color: const Color(0xffffffff),
+                        fontWeight: FontWeight.w700,
+                      ),
+                      textAlign: TextAlign.left,
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(883.97, 324.5),
+                    child: Text(
+                      'Email Address',
+                      style: TextStyle(
+                        fontFamily: 'AvertaStd ☞',
+                        fontSize: 14,
+                        color: const Color(0xffffffff),
+                        fontWeight: FontWeight.w700,
+                      ),
+                      textAlign: TextAlign.left,
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(883.97, 405.5),
+                    child: Text(
+                      'Password',
+                      style: TextStyle(
+                        fontFamily: 'AvertaStd ☞',
+                        fontSize: 14,
+                        color: const Color(0xffffffff),
+                        fontWeight: FontWeight.w700,
+                      ),
+                      textAlign: TextAlign.left,
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(884.41, 494.82),
+                    child: Stack(
+                      children: <Widget>[
+                        Transform.translate(
+                          offset: Offset(0.0, 0.0),
+                          child: Stack(
+                            children: <Widget>[
+                              Transform.translate(
+                                offset: Offset(-0.43, -0.31),
+                                child: Container(
+                                  width: 329.0,
+                                  height: 38.0,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(15.0),
+                                    color: const Color(0xff2f4294),
+                                  ),
+                                ),
+                              ),
+                              Transform.translate(
+                                offset: Offset(103.88, 6.28),
+                                child: Stack(
+                                  children: <Widget>[
+                                    Transform.translate(
+                                      offset: Offset(-0.31, 0.41),
+                                      child: Text(
+                                        'Create Account',
+                                        style: TextStyle(
+                                          fontFamily: 'Segoe UI',
+                                          fontSize: 16,
+                                          color: const Color(0xff2f4294),
+                                          fontWeight: FontWeight.w700,
+                                        ),
+                                        textAlign: TextAlign.left,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(884.41, 494.82),
+                    child: Stack(
+                      children: <Widget>[
+                        Transform.translate(
+                          offset: Offset(0.0, 0.0),
+                          child: Stack(
+                            children: <Widget>[
+                              Transform.translate(
+                                offset: Offset(-0.43, -0.31),
+                                child: Container(
+                                  width: 329.0,
+                                  height: 38.0,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(15.0),
+                                    color: const Color(0xff2f4294),
+                                    boxShadow: [
+                                      BoxShadow(
+                                        color: const Color(0xff283e9d),
+                                        offset: Offset(0, 3),
+                                        blurRadius: 6,
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                              Transform.translate(
+                                offset: Offset(103.88, 6.28),
+                                child: Stack(
+                                  children: <Widget>[
+                                    Transform.translate(
+                                      offset: Offset(-0.31, 0.41),
+                                      child: Text(
+                                        'Create Account',
+                                        style: TextStyle(
+                                          fontFamily: 'Segoe UI',
+                                          fontSize: 16,
+                                          color: const Color(0xff2f4294),
+                                          fontWeight: FontWeight.w700,
+                                        ),
+                                        textAlign: TextAlign.left,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
               ),
             ),
             Transform.translate(
-              offset: Offset(110.0, 32.0),
+              offset: Offset(57.0, 6.41),
+              child: Stack(
+                children: <Widget>[
+                  Transform.translate(
+                    offset: Offset(42.0, 722.0),
+                    child: Stack(
+                      children: <Widget>[
+                        Transform.translate(
+                          offset: Offset(0.0, 0.0),
+                          child: Stack(
+                            children: <Widget>[
+                              Transform.translate(
+                                offset: Offset(0.0, 0.0),
+                                child: Stack(
+                                  children: <Widget>[
+                                    Transform.translate(
+                                      offset: Offset(0.0, -0.41),
+                                      child: Text(
+                                        'Already a member?',
+                                        style: TextStyle(
+                                          fontFamily: 'AvertaStd ☞',
+                                          fontSize: 14,
+                                          color: const Color(0xfffffefe),
+                                          fontWeight: FontWeight.w700,
+                                        ),
+                                        textAlign: TextAlign.left,
+                                      ),
+                                    ),
+                                    Transform.translate(
+                                      offset: Offset(133.0, -0.41),
+                                      child: Text(
+                                        'Sign in',
+                                        style: TextStyle(
+                                          fontFamily: 'AvertaStd ☞',
+                                          fontSize: 14,
+                                          color: const Color(0xff2f4294),
+                                          fontWeight: FontWeight.w700,
+                                        ),
+                                        textAlign: TextAlign.left,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Transform.translate(
+              offset: Offset(33.0, 34.0),
               child: Text(
-                'Test Application',
+                'Join Commuter.\nBecome a better you.',
                 style: TextStyle(
-                  fontFamily: 'Segoe UI',
-                  fontSize: 20,
-                  color: const Color(0xff707070),
+                  fontFamily: 'AvertaStd ☞',
+                  fontSize: 31,
+                  color: const Color(0xffffffff),
+                  fontWeight: FontWeight.w700,
                 ),
                 textAlign: TextAlign.left,
               ),
             ),
-            Transform(
-              transform: Matrix4(
-                  0.999391,
-                  0.034899,
-                  0.0,
-                  0.0,
-                  -0.034899,
-                  0.999391,
-                  0.0,
-                  0.0,
-                  0.0,
-                  0.0,
-                  1.0,
-                  0.0,
-                  114.55,
-                  269.78,
-                  0.0,
-                  1.0),
-              child: PageLink(
-                links: [
-                  PageLinkInfo(
-                    transition: LinkTransition.Fade,
-                    ease: Curves.easeOut,
-                    duration: 0.3,
-                    pageBuilder: () => Page2(),
+            Transform.translate(
+              offset: Offset(-56.33, 127.0),
+              child: Stack(
+                children: <Widget>[
+                  Transform.translate(
+                    offset: Offset(78.09, 8.63),
+                    child: Stack(
+                      children: <Widget>[
+                        SvgPicture.string(
+                          _svg_joch8g,
+                          allowDrawingOutsideViewBox: true,
+                        ),
+                        Transform.translate(
+                          offset: Offset(70.05, 146.17),
+                          child: Container(
+                            width: 0.0,
+                            height: 0.0,
+                            decoration: BoxDecoration(
+                              borderRadius:
+                                  BorderRadius.all(Radius.elliptical(0.0, 0.0)),
+                              border: Border.all(
+                                  width: 1.0, color: const Color(0xffc1272d)),
+                            ),
+                          ),
+                        ),
+                        Transform.translate(
+                          offset: Offset(60.84, 84.95),
+                          child: Container(
+                            width: 5.1,
+                            height: 42.1,
+                            decoration: BoxDecoration(
+                              color: const Color(0xff29397b),
+                            ),
+                          ),
+                        ),
+                        Transform.translate(
+                          offset: Offset(2.2, 71.92),
+                          child: SvgPicture.string(
+                            _svg_c3occa,
+                            allowDrawingOutsideViewBox: true,
+                          ),
+                        ),
+                        Transform.translate(
+                          offset: Offset(28.14, 126.07),
+                          child: Container(
+                            width: 6.3,
+                            height: 6.0,
+                            decoration: BoxDecoration(
+                              borderRadius:
+                                  BorderRadius.all(Radius.elliptical(3.13, 2.98)),
+                              color: const Color(0x1a000000),
+                            ),
+                          ),
+                        ),
+                        Transform.translate(
+                          offset: Offset(27.75, 126.07),
+                          child: Container(
+                            width: 6.3,
+                            height: 6.0,
+                            decoration: BoxDecoration(
+                              borderRadius:
+                                  BorderRadius.all(Radius.elliptical(3.13, 2.98)),
+                              color: const Color(0xff535461),
+                            ),
+                          ),
+                        ),
+                        Transform.translate(
+                          offset: Offset(131.82, 125.79),
+                          child: Container(
+                            width: 6.3,
+                            height: 6.0,
+                            decoration: BoxDecoration(
+                              borderRadius:
+                                  BorderRadius.all(Radius.elliptical(3.13, 2.98)),
+                              color: const Color(0x1a000000),
+                            ),
+                          ),
+                        ),
+                        Transform.translate(
+                          offset: Offset(132.02, 126.17),
+                          child: Container(
+                            width: 6.3,
+                            height: 6.0,
+                            decoration: BoxDecoration(
+                              borderRadius:
+                                  BorderRadius.all(Radius.elliptical(3.13, 2.98)),
+                              color: const Color(0xff535461),
+                            ),
+                          ),
+                        ),
+                        Transform.translate(
+                          offset: Offset(73.18, 120.12),
+                          child: Container(
+                            width: 12.5,
+                            height: 11.9,
+                            decoration: BoxDecoration(
+                              borderRadius:
+                                  BorderRadius.all(Radius.elliptical(6.27, 5.95)),
+                              color: const Color(0x1a000000),
+                            ),
+                          ),
+                        ),
+                        Transform.translate(
+                          offset: Offset(73.57, 120.12),
+                          child: Container(
+                            width: 12.5,
+                            height: 11.9,
+                            decoration: BoxDecoration(
+                              borderRadius:
+                                  BorderRadius.all(Radius.elliptical(6.27, 5.95)),
+                              color: const Color(0xff535461),
+                            ),
+                          ),
+                        ),
+                        Transform.translate(
+                          offset: Offset(56.46, 0.47),
+                          child: SvgPicture.string(
+                            _svg_u61q6b,
+                            allowDrawingOutsideViewBox: true,
+                          ),
+                        ),
+                        Transform.translate(
+                          offset: Offset(73.27, 132.55),
+                          child: Container(
+                            width: 14.7,
+                            height: 4.4,
+                            decoration: BoxDecoration(
+                              color: const Color(0xff2f4294),
+                            ),
+                          ),
+                        ),
+                        Transform.translate(
+                          offset: Offset(73.27, 132.55),
+                          child: Container(
+                            width: 14.7,
+                            height: 4.4,
+                            decoration: BoxDecoration(
+                              color: const Color(0x1a29397b),
+                            ),
+                          ),
+                        ),
+                        Transform.translate(
+                          offset: Offset(66.3, 122.67),
+                          child: SvgPicture.string(
+                            _svg_tbodbx,
+                            allowDrawingOutsideViewBox: true,
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ],
-                child: Container(
-                  width: 151.0,
-                  height: 262.0,
-                  decoration: BoxDecoration(
-                    color: const Color(0xffffffff),
-                    border:
-                        Border.all(width: 1.0, color: const Color(0xff707070)),
+              ),
+            ),
+            Transform.translate(
+              offset: Offset(265.0, 355.0),
+              child:
+                  // Adobe XD layer: '152-1525702_google-…' (shape)
+                  Container(
+                width: 24.0,
+                height: 24.0,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(104.0),
+                  image: DecorationImage(
+                    image: const AssetImage(''),
+                    fit: BoxFit.fill,
                   ),
                 ),
               ),
             ),
             Transform.translate(
-              offset: Offset(149.0, 365.0),
+              offset: Offset(323.0, 357.0),
+              child:
+                  // Adobe XD layer: 'unnamed' (shape)
+                  Container(
+                width: 26.0,
+                height: 21.0,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: const AssetImage(''),
+                    fit: BoxFit.fill,
+                  ),
+                ),
+              ),
+            ),
+            Transform.translate(
+              offset: Offset(96.0, 671.0),
               child: Text(
-                'CLICK ON\nME',
+                'Create Account',
                 style: TextStyle(
-                  fontFamily: 'Segoe UI',
-                  fontSize: 20,
-                  color: const Color(0xff707070),
+                  fontFamily: 'AvertaStd ☞',
+                  fontSize: 25,
+                  color: const Color(0xffffffff),
+                  fontWeight: FontWeight.w700,
                 ),
                 textAlign: TextAlign.left,
               ),
@@ -94,3 +583,14 @@ class Page1 extends StatelessWidget {
     );
   }
 }
+
+const String _svg_9mw38u =
+    '<svg viewBox="882.2 231.2 331.5 2.0" ><path transform="translate(882.21, 231.19)" d="M 0 0 L 147.7425079345703 0.9790732860565186" fill="none" stroke="#ffffff" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(1065.93, 232.17)" d="M 0 0 L 147.7425079345703 0.9790732860565186" fill="none" stroke="#ffffff" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_joch8g =
+    '<svg viewBox="0.0 0.0 166.2 158.7" ><defs><linearGradient id="gradient" x1="0.499993" y1="0.999956" x2="0.499993" y2="0.000121"><stop offset="0.0" stop-color="#40808080" stop-opacity="0.25" /><stop offset="0.54" stop-color="#1f808080" stop-opacity="0.12" /><stop offset="1.0" stop-color="#1a808080" stop-opacity="0.1" /></linearGradient></defs><path transform="translate(-194.64, -117.92)" d="M 331.3101806640625 221.0175628662109 C 328.7727966308594 221.0161743164063 326.2455139160156 221.3224334716797 323.7896728515625 221.9289855957031 L 314.76953125 195.4700164794922 L 314.652099609375 195.1258850097656 L 315.4203186035156 194.9120025634766 C 317.230712890625 191.1291351318359 312.40380859375 190.5618286132813 312.40380859375 190.5618286132813 L 311.9976806640625 190.6920471191406 C 309.4460144042969 189.9945373535156 305.0252380371094 189.6248474121094 300.4380798339844 189.4528045654297 L 300.4380798339844 184.1702880859375 C 300.4496154785156 181.2732238769531 301.0004272460938 178.4009246826172 302.0650329589844 175.6862335205078 C 302.1946716308594 175.3537445068359 302.3096313476563 175.0422058105469 302.3976440429688 174.7445983886719 C 302.4172973632813 174.6841278076172 302.4368591308594 174.6236724853516 302.4539794921875 174.5655517578125 L 302.4857788085938 174.4562835693359 C 302.5078125 174.3795318603516 302.5322570800781 174.3004913330078 302.5518798828125 174.2237854003906 C 302.5714111328125 174.1470642089844 302.5811767578125 174.1168212890625 302.5934143066406 174.06103515625 C 302.6056518554688 174.0052185058594 302.622802734375 173.9517364501953 302.635009765625 173.8982696533203 L 302.6521301269531 173.821533203125 C 302.6716918945313 173.7424926757813 302.6888427734375 173.665771484375 302.7059631347656 173.5890502929688 C 302.7059631347656 173.5564880371094 302.7182006835938 173.52392578125 302.7255554199219 173.4913787841797 C 302.7328796386719 173.4588165283203 302.7524719238281 173.3611755371094 302.7646789550781 173.2960815429688 C 302.7768249511719 173.2309722900391 302.7793273925781 173.2077331542969 302.7866516113281 173.1635437011719 C 302.7940368652344 173.119384765625 302.8038330078125 173.0659027099609 302.8111572265625 173.0194091796875 C 302.8184814453125 172.972900390625 302.8111572265625 172.9589538574219 302.8233642578125 172.9287109375 C 302.8356323242188 172.8984832763672 302.8405151367188 172.8147735595703 302.8478393554688 172.7590026855469 L 302.8478393554688 172.7147979736328 C 302.8478393554688 172.6473846435547 302.8649597167969 172.5799713134766 302.869873046875 172.5148620605469 C 302.874755859375 172.4497528076172 302.869873046875 172.4567413330078 302.869873046875 172.4264984130859 C 302.869873046875 172.3962707519531 302.869873046875 172.3311767578125 302.869873046875 172.2846984863281 C 302.869873046875 172.2382049560547 302.869873046875 172.2381896972656 302.869873046875 172.2149505615234 C 302.869873046875 172.1916809082031 302.869873046875 172.1172790527344 302.869873046875 172.0684356689453 C 302.869873046875 172.0196380615234 302.869873046875 171.9708099365234 302.869873046875 171.9243011474609 C 302.869873046875 171.8778228759766 302.869873046875 171.8871002197266 302.869873046875 171.8684997558594 C 302.869873046875 171.8499145507813 302.869873046875 171.7917938232422 302.869873046875 171.7545928955078 C 302.869873046875 171.7173614501953 302.869873046875 171.7057495117188 302.869873046875 171.6848449707031 C 302.869873046875 171.6639099121094 302.869873046875 171.6290435791016 302.869873046875 171.6011199951172 C 302.869873046875 171.5732421875 302.869873046875 171.5430145263672 302.869873046875 171.5150909423828 C 302.869873046875 171.4871978759766 302.869873046875 171.4593048095703 302.869873046875 171.4314270019531 C 302.869873046875 171.4034881591797 302.869873046875 171.3825836181641 302.869873046875 171.3593597412109 C 302.7754516601563 170.4599456787109 302.7623596191406 169.5545196533203 302.8307189941406 168.6529846191406 L 303.1731872558594 164.5795135498047 C 304.1813659667969 164.2862854003906 305.1213684082031 163.8127899169922 305.9425964355469 163.1844940185547 C 305.9425964355469 163.1844940185547 306.160400390625 157.1091613769531 306.8160400390625 152.3009796142578 C 307.6733703613281 146.221923828125 305.1965026855469 140.1489105224609 300.2521057128906 136.2070159912109 C 299.811767578125 135.8605651855469 299.3542785644531 135.5281066894531 298.877197265625 135.2188873291016 C 298.9677124023438 134.8900451660156 299.0363159179688 134.5561370849609 299.0827331542969 134.2191009521484 C 299.3007507324219 133.8391876220703 299.5616455078125 133.4828948974609 299.8607482910156 133.1565704345703 C 300.2716674804688 132.7705993652344 300.8392944335938 132.5497131347656 301.3089904785156 132.2265319824219 C 302.3340759277344 131.4988098144531 302.7768859863281 130.3130187988281 303.0705261230469 129.1784362792969 C 303.6723327636719 126.8533554077148 303.8460083007813 124.326042175293 302.8258361816406 122.1125869750977 C 301.8056640625 119.8991470336914 299.3249206542969 118.0925979614258 296.6264343261719 118.208854675293 C 295.7995300292969 118.2437210083008 294.9922485351563 118.4413375854492 294.1799621582031 118.5320358276367 C 292.031982421875 118.7389602661133 289.9059753417969 118.067024230957 287.7505798339844 117.9437942504883 C 287.1256713867188 117.8709487915039 286.4916076660156 117.9509811401367 285.9083862304688 118.1763076782227 C 285.4707336425781 118.4040451049805 285.0921325683594 118.7217788696289 284.8001403808594 119.106330871582 C 283.8136596679688 120.3195877075195 283.1370239257813 121.7339096069336 282.8233947753906 123.237907409668 C 282.5591735839844 124.3702011108398 282.5591735839844 125.3955459594727 281.0839233398438 125.5629501342773 C 279.4227600097656 125.7605819702148 274.0918579101563 124.7003707885742 275.2123718261719 128.0391387939453 C 275.7481689453125 129.6178283691406 278.3194274902344 129.6666564941406 279.6380615234375 130.8291778564453 C 280.3230590820313 131.4337005615234 280.638671875 132.3265228271484 281.3921508789063 132.8659210205078 L 281.4214782714844 132.8845367431641 C 277.9964294433594 132.933349609375 272.3426818847656 134.2214202880859 269.0105895996094 141.4267425537109 C 263.9855041503906 152.2986450195313 260.968994140625 155.8419952392578 256.9469604492188 158.6808624267578 C 253.1206817626953 161.3802337646484 251.3421173095703 170.0735778808594 251.1781463623047 170.9059448242188 C 250.1188507080078 173.4472198486328 249.5414581298828 178.1135559082031 252.9249725341797 185.8606262207031 C 255.7922210693359 192.4288482666016 258.2876892089844 196.8999328613281 260.0466613769531 200.2596130371094 L 259.7016906738281 200.2293853759766 C 258.9677734375 200.1760101318359 258.2376403808594 200.0836334228516 257.5145568847656 199.9527130126953 C 254.6790618896484 199.4411926269531 247.5328826904297 198.3716735839844 245.6099395751953 200.1851959228516 C 243.1952667236328 202.4544525146484 244.0001983642578 206.4279632568359 250.4369049072266 206.9952545166016 C 251.9087066650391 207.1126098632813 253.3866119384766 207.1452026367188 254.8625946044922 207.0929260253906 L 254.8625946044922 217.0557250976563 L 254.7231292724609 217.1370849609375 L 254.7231292724609 217.1370849609375 C 253.4631195068359 217.8508911132813 252.2497406005859 218.4902648925781 251.4326324462891 218.9111022949219 L 251.1340789794922 219.0645446777344 C 250.8983917236328 218.6964569091797 250.7017364501953 218.3070526123047 250.5469207763672 217.9020385742188 L 243.9023284912109 222.0545501708984 L 247.2001800537109 224.6562805175781 L 243.8460540771484 227.9508514404297 C 243.7408905029297 227.8625183105469 243.6381378173828 227.7718048095703 243.5329132080078 227.6834564208984 C 238.1481781005859 223.3064270019531 231.2914581298828 220.9077453613281 224.2057342529297 220.9222564697266 C 207.87548828125 220.9222564697266 194.6400146484375 233.3728332519531 194.6400146484375 248.7297668457031 C 194.6400146484375 264.086669921875 207.8779449462891 276.5372314453125 224.2057342529297 276.5372314453125 C 238.8307952880859 276.5372314453125 250.9751129150391 266.53955078125 253.3506317138672 253.4309692382813 C 258.9775695800781 253.8285522460938 264.2081298828125 253.9494323730469 267.6430358886719 253.4728088378906 L 267.6430358886719 256.6767272949219 L 282.7206726074219 256.6767272949219 L 282.7206726074219 252.80322265625 L 283.097412109375 252.7799682617188 C 289.8815002441406 252.3149719238281 286.3634643554688 249.4714660644531 286.3634643554688 249.4714660644531 C 284.8074645996094 249.4714660644531 283.0949401855469 248.6484069824219 281.8912963867188 247.929931640625 C 281.4679870605469 247.676513671875 281.0325622558594 247.4463195800781 280.5872802734375 247.232421875 C 280.9958190917969 245.8544921875 280.8716735839844 244.383056640625 280.2374267578125 243.0845642089844 L 314.6276245117188 209.3714294433594 L 319.8826599121094 223.1821899414063 L 319.5328369140625 223.3193817138672 C 309.0643310546875 227.5974578857422 301.7420043945313 237.4114685058594 301.7420043945313 248.8344116210938 C 301.7420043945313 264.193603515625 314.9798889160156 276.6419067382813 331.3076782226563 276.6419067382813 C 347.6355285644531 276.6419067382813 360.8758850097656 264.1819763183594 360.8758850097656 248.8367004394531 C 360.8758850097656 233.4914245605469 347.6330871582031 221.0175628662109 331.3101806640625 221.0175628662109 Z M 332.8856811523438 269.6714172363281 L 331.6625061035156 251.7244262695313 C 331.8887634277344 251.6942443847656 332.1109924316406 251.6412048339844 332.3255004882813 251.5663146972656 L 342.4294128417969 266.8860473632813 C 339.5098266601563 268.4863586425781 336.2472229003906 269.4386291503906 332.8856506347656 269.6714172363281 Z M 313.1646423339844 261.0966491699219 L 328.638671875 250.5479431152344 L 328.6679992675781 250.5851135253906 L 322.3218383789063 267.9973754882813 C 318.6798095703125 266.5090942382813 315.51953125 264.1275329589844 313.1646118164063 261.0966796875 Z M 341.6905822753906 230.1898651123047 L 333.1988525390625 246.1466369628906 C 332.8017578125 245.7960815429688 332.3178405761719 245.5465698242188 331.7921447753906 245.4212341308594 L 331.5865783691406 244.8190002441406 L 332.1713256835938 227.7532196044922 C 335.495361328125 227.8820953369141 338.7473754882813 228.7137145996094 341.6905822753906 230.1875305175781 Z M 331.1389465332031 243.4890747070313 L 325.9670715332031 228.3228759765625 C 327.6838989257813 227.9346771240234 329.4426574707031 227.7388305664063 331.2074584960938 227.7392883300781 L 331.6771240234375 227.7392883300781 L 331.1389465332031 243.4890747070313 Z M 321.9450378417969 229.6248931884766 C 322.0600280761719 229.5760498046875 322.1897277832031 229.5318756103516 322.2924499511719 229.4830474853516 L 328.6728210449219 246.2791442871094 C 328.4206237792969 246.5232849121094 328.2138366699219 246.8063049316406 328.061279296875 247.1162109375 L 311.7041015625 238.4902801513672 C 312.3192749023438 237.4671020507813 313.0238952636719 236.4949188232422 313.8104858398438 235.5839691162109 L 315.6355590820313 233.6983642578125 C 317.4779357910156 232.0073852539063 319.6121215820313 230.6295318603516 321.945068359375 229.6248931884766 Z M 311.486328125 238.9041442871094 L 327.9119873046875 247.5672302246094 C 327.8379516601563 247.8232727050781 327.8001098632813 248.0875244140625 327.7994689941406 248.3530883789063 C 327.7994689941406 248.3926086425781 327.7994689941406 248.4321594238281 327.7994689941406 248.4716796875 L 308.8979797363281 248.1554870605469 C 308.9863891601563 244.9234924316406 309.8694763183594 241.7560119628906 311.4765625 238.9064331054688 Z M 334.4171447753906 248.4065551757813 L 352.5260314941406 242.4707336425781 C 354.4751281738281 248.3638916015625 353.5746765136719 254.7750244140625 350.0673522949219 259.9759521484375 L 333.9499206542969 250.3153991699219 C 334.2662963867188 249.841796875 334.4359130859375 249.2930603027344 334.4392700195313 248.7320556640625 C 334.4347839355469 248.6239013671875 334.4241638183594 248.5159912109375 334.4074401855469 248.4089050292969 Z M 352.3792724609375 242.0196685791016 L 334.32177734375 247.939208984375 C 334.1408081054688 247.4398193359375 333.8941955566406 246.9640502929688 333.5878295898438 246.5232849121094 L 342.1505126953125 230.4130706787109 C 346.94921875 232.9497222900391 350.5895385742188 237.0852508544922 352.3694458007813 242.0220031738281 Z M 309.8618774414063 196.8441009521484 L 311.1316223144531 200.17822265625 L 289.2307434082031 206.5906829833984 L 289.0032043457031 202.2916717529297 L 301.4802856445313 198.8041229248047 C 301.5061340332031 199.0701141357422 301.4888305664063 199.3383178710938 301.4288635253906 199.5992736816406 C 301.7440490722656 199.2852783203125 302.0282897949219 198.9443817138672 302.27783203125 198.5809326171875 L 309.719970703125 196.5023498535156 L 309.8618774414063 196.8441009521484 Z M 225.7812652587891 269.5714416503906 L 224.5579986572266 251.6686096191406 C 224.8055267333984 251.6650695800781 225.0517272949219 251.6346435546875 225.2919464111328 251.5779418945313 L 235.3225250244141 266.7999877929688 C 232.4024200439453 268.3951110839844 229.1407928466797 269.3424987792969 225.7812652587891 269.5714416503906 Z M 206.0601654052734 261.0013427734375 L 221.5341949462891 250.4642639160156 L 221.5635223388672 250.5014343261719 L 215.2173767089844 267.9020385742188 C 211.5754241943359 266.4137573242188 208.4151000976563 264.0321960449219 206.0602111816406 261.0013427734375 Z M 201.7861633300781 248.0601501464844 C 201.8761444091797 244.8277587890625 202.7608642578125 241.6602783203125 204.3697204589844 238.8111114501953 L 221.0742340087891 247.6207275390625 C 220.9841003417969 247.863037109375 220.9273681640625 248.1155090332031 220.9054107666016 248.3716735839844 L 201.7861633300781 248.0601501464844 Z M 234.5861358642578 230.0945434570313 L 226.8479461669922 244.651611328125 L 225.6638641357422 245.8141479492188 C 225.2945098876953 245.6792602539063 224.9022979736328 245.6098937988281 224.5066375732422 245.6095886230469 L 224.4601440429688 245.6095581054688 L 225.0644378662109 227.6602020263672 C 228.3893890380859 227.7884521484375 231.6423187255859 228.6200866699219 234.5861663818359 230.0945434570313 Z M 241.9892120361328 236.0699005126953 C 243.4024505615234 237.843505859375 244.5076141357422 239.8208160400391 245.2626190185547 241.9266662597656 L 228.9959259033203 247.2579956054688 L 241.9892120361328 236.0699005126953 Z M 228.0564727783203 248.0671081542969 L 245.4264373779297 242.3777160644531 C 245.5895843505859 242.8907775878906 245.7396392822266 243.4123840332031 245.8766326904297 243.9424743652344 C 245.9059906005859 244.0633850097656 245.9329376220703 244.1749877929688 245.9597930908203 244.3028564453125 C 238.1530914306641 245.8443603515625 230.8724212646484 247.5463256835938 227.8265228271484 248.2740783691406 L 228.0564727783203 248.0671081542969 Z M 223.9561920166016 245.6165161132813 C 223.4713287353516 245.63525390625 222.9972381591797 245.7576293945313 222.5690155029297 245.9745788574219 L 215.9904632568359 229.0738525390625 C 218.5785827636719 228.1254577636719 221.3291015625 227.640625 224.1029968261719 227.6439514160156 C 224.2595825195313 227.6439514160156 224.4161224365234 227.6439514160156 224.5727081298828 227.6439514160156 L 223.9561920166016 245.6165161132813 Z M 222.128662109375 246.2442932128906 C 221.7763519287109 246.4983215332031 221.4831237792969 246.8189392089844 221.2675018310547 247.1859130859375 L 204.6118774414063 238.3949584960938 C 205.2259368896484 237.3694915771484 205.9297790527344 236.3949279785156 206.7158508300781 235.4816741943359 L 208.5458221435547 233.5890655517578 C 210.5645904541016 231.7384948730469 212.9314880371094 230.2651977539063 215.5231781005859 229.2459106445313 L 222.128662109375 246.2442932128906 Z M 245.9867401123047 252.7892761230469 C 245.4482879638672 255.3103332519531 244.4213104248047 257.7142028808594 242.9580230712891 259.8783264160156 L 227.1390533447266 250.3967895507813 C 230.3659820556641 250.8850402832031 237.9598541259766 251.9778442382813 245.9867401123047 252.7892761230469 Z M 253.0497283935547 242.6055603027344 C 252.0691680908203 238.5231475830078 250.1231842041016 234.7065582275391 247.3591766357422 231.4454040527344 L 248.1347503662109 230.7781066894531 L 254.8772125244141 237.0347900390625 L 254.8772125244141 242.6799926757813 C 254.2998504638672 242.7745361328125 253.7183685302734 242.8721923828125 253.1328887939453 242.9729309082031 C 253.1060028076172 242.8497314453125 253.0815277099609 242.7288208007813 253.0521697998047 242.60791015625 Z M 254.8772125244141 230.7223358154297 L 254.7304840087891 230.5874786376953 L 254.8772125244141 230.7013854980469 Z M 260.1078186035156 222.5311737060547 L 260.1249694824219 222.5195617675781 L 260.4943542480469 222.2870635986328 L 260.6582946777344 222.1824340820313 L 260.8393249511719 222.0685119628906 L 261.0448608398438 221.9406280517578 L 261.2356567382813 221.8243865966797 L 261.4680786132813 221.6825714111328 L 261.661376953125 221.5662994384766 L 261.9450988769531 221.39892578125 L 262.1188354492188 221.2966156005859 L 262.4222106933594 221.1222229003906 C 262.5422973632813 222.1769866943359 262.8190307617188 223.2102661132813 263.2442321777344 224.1912841796875 L 263.3396301269531 232.5218658447266 C 261.9210815429688 231.0066528320313 260.8236999511719 229.245361328125 260.1078186035156 227.334716796875 L 260.1078186035156 222.5311737060547 Z M 288.1468811035156 186.0280303955078 C 288.7414245605469 186.5302276611328 289.1255187988281 186.8417816162109 289.1255187988281 186.8417816162109 C 289.1255187988281 186.8417816162109 290.3854064941406 187.9205780029297 291.8191223144531 189.3156280517578 C 290.5444641113281 189.3156280517578 289.3603820800781 189.3156280517578 288.3206481933594 189.3411865234375 L 288.1468811035156 186.0280303955078 Z M 288.5848083496094 194.3167877197266 C 290.6276245117188 194.3842468261719 293.2845458984375 194.45166015625 296.1126708984375 194.4702453613281 C 296.1322021484375 194.5283813476563 296.1518249511719 194.5865020751953 296.1640625 194.6399841308594 C 296.7416076660156 194.8095550537109 297.306396484375 195.0161895751953 297.8545532226563 195.2584381103516 L 288.7879028320313 198.183349609375 L 288.5848083496094 194.3167877197266 Z M 290.8894348144531 179.0412750244141 C 290.8894348144531 179.0412750244141 289.022705078125 174.3911895751953 286.7450561523438 170.8757476806641 C 287.9462585449219 167.5323181152344 290.1848449707031 163.9959259033203 294.3659057617188 162.4288330078125 L 294.3365173339844 162.7473754882813 L 294.3218383789063 162.91943359375 C 294.189697265625 164.3865203857422 294.0380554199219 166.1744689941406 293.9083862304688 168.0112457275391 L 293.9083862304688 168.1182098388672 C 293.8936767578125 168.3367614746094 293.8782348632813 168.5560913085938 293.8618774414063 168.7761993408203 L 293.8618774414063 168.8901062011719 L 293.8448181152344 169.1598358154297 L 293.82763671875 169.4248809814453 L 293.8129272460938 169.6573791503906 C 293.8031921386719 169.8123931884766 293.7933654785156 169.9674072265625 293.7835693359375 170.1223907470703 L 293.7835693359375 170.2549133300781 C 293.7835693359375 170.3882293701172 293.7763061523438 170.5215301513672 293.7615966796875 170.6548461914063 L 293.7615966796875 170.8106231689453 C 293.75341796875 170.9656066894531 293.7452697753906 171.1252746582031 293.7370910644531 171.2895660400391 L 293.7370910644531 171.3174743652344 C 293.7273254394531 171.4957122802734 293.7191467285156 171.6724243164063 293.7126770019531 171.8475799560547 L 293.7126770019531 171.9266357421875 C 293.7126770019531 172.0816345214844 293.7061462402344 172.2428436279297 293.693115234375 172.4102325439453 L 293.693115234375 172.4474487304688 C 293.6784362792969 172.8023986816406 293.6669921875 173.1488342285156 293.6588439941406 173.4867248535156 L 293.6588439941406 173.52392578125 C 293.6588439941406 173.861083984375 293.6441345214844 174.1865997314453 293.6392211914063 174.5004425048828 L 293.6392211914063 174.5283508300781 C 293.6392211914063 174.8445587158203 293.6392211914063 175.1468200683594 293.6392211914063 175.4328002929688 L 293.6392211914063 175.4328002929688 C 293.6392211914063 175.5707550048828 293.6392211914063 175.7055969238281 293.6392211914063 175.8373565673828 L 293.6392211914063 175.8629302978516 C 293.6392211914063 176.1233367919922 293.6563720703125 176.3674621582031 293.6710510253906 176.593017578125 L 293.6710510253906 176.6348419189453 C 293.6857299804688 176.8534088134766 293.7052917480469 177.0556793212891 293.7272644042969 177.2346954345703 L 293.7272644042969 177.2765655517578 C 293.7370910644531 177.3524932861328 293.7477111816406 177.4245910644531 293.7591552734375 177.4927673339844 L 293.7591552734375 177.5299835205078 C 293.7737731933594 177.6043853759766 293.7860412597656 177.6764678955078 293.8031921386719 177.7392425537109 L 293.8031921386719 177.7648010253906 C 293.8153991699219 177.8182830810547 293.8300476074219 177.8671112060547 293.8447265625 177.9112701416016 L 293.85693359375 177.9507904052734 C 293.8726196289063 177.9961090087891 293.8914184570313 178.0403900146484 293.9132080078125 178.0833587646484 C 294.3316040039063 178.8692169189453 294.5321960449219 181.2872467041016 294.6227111816406 183.8471069335938 C 292.4674377441406 181.2012176513672 290.886962890625 179.03662109375 290.886962890625 179.03662109375 Z M 260.1078186035156 241.5267486572266 L 260.1078186035156 234.8236694335938 L 263.3958740234375 237.4137725830078 L 263.3958740234375 237.4137725830078 L 263.4423522949219 241.5314178466797 C 262.390380859375 241.6290588378906 261.2723388671875 241.7639312744141 260.1053466796875 241.9080657958984 L 260.1078186035156 241.5267486572266 Z M 260.1078186035156 206.7162322998047 C 260.9591674804688 206.6139373779297 261.7958679199219 206.4837341308594 262.6056213378906 206.3581848144531 C 262.7263488769531 206.9334716796875 262.7723388671875 207.5206756591797 262.7427062988281 208.1066131591797 L 262.7427062988281 211.6522979736328 L 262.9114685058594 211.6522979736328 C 261.9429626464844 212.2355804443359 261.0071411132813 212.8665008544922 260.1078186035156 213.5425262451172 L 260.1078186035156 206.7185516357422 Z M 238.8381195068359 232.8706359863281 L 228.0222320556641 243.4890747070313 L 235.0240325927734 230.3177490234375 C 236.2631072998047 230.9732971191406 237.4337005615234 231.7393646240234 238.5200653076172 232.6056213378906 C 238.6301727294922 232.6916198730469 238.7329254150391 232.7938995361328 238.8381195068359 232.8706359863281 Z M 201.7789001464844 248.63671875 C 201.7789001464844 248.6018676757813 201.7789001464844 248.5670166015625 201.7789001464844 248.5321350097656 L 220.9054107666016 248.8529968261719 C 220.9361724853516 249.2736511230469 221.0604248046875 249.683349609375 221.2699890136719 250.0550231933594 L 205.7763977050781 260.61767578125 C 203.1726684570313 257.1128234863281 201.7761077880859 252.9271240234375 201.7788696289063 248.63671875 Z M 224.1054229736328 269.6341857910156 C 221.2191162109375 269.6372680664063 218.3591918945313 269.1115417480469 215.6822052001953 268.0857543945313 L 221.9525146484375 250.8804016113281 C 222.5319366455078 251.3729248046875 223.2792510986328 251.6495971679688 224.0565032958984 251.6593322753906 L 225.2797698974609 269.6016235351563 C 224.8907775878906 269.6225891113281 224.4993133544922 269.6341857910156 224.1054229736328 269.6341857910156 Z M 235.7555389404297 266.5465698242188 L 225.7763824462891 251.4175109863281 C 226.1597442626953 251.2624206542969 226.5078582763672 251.0381774902344 226.8014373779297 250.7571716308594 L 242.6790924072266 260.27587890625 C 240.8747406005859 262.8166809082031 238.5127410888672 264.9559631347656 235.7555389404297 266.5465698242188 Z M 276.16650390625 239.7922668457031 C 275.5878295898438 239.6369781494141 274.9892272949219 239.5587310791016 274.3879699707031 239.5597839355469 L 274.1873168945313 239.5597839355469 L 273.9866943359375 239.5597839355469 C 272.9696655273438 239.5570373535156 271.96630859375 239.782470703125 271.0582580566406 240.2177886962891 C 270.632568359375 237.7206878662109 270.4172668457031 234.5400238037109 271.3689880371094 232.0917358398438 C 271.9355773925781 230.6127319335938 272.3612976074219 229.0883331298828 272.64111328125 227.5369567871094 L 274.6838989257813 216.5581207275391 L 312.6949157714844 204.3004913330078 L 313.1597595214844 205.5234832763672 L 276.16650390625 239.7922668457031 Z M 308.88330078125 248.7320556640625 C 308.88330078125 248.6972045898438 308.88330078125 248.6623229980469 308.88330078125 248.62744140625 L 327.8508605957031 248.9459838867188 C 327.9907836914063 249.3588256835938 328.1625366210938 249.7613830566406 328.3645935058594 250.1503601074219 L 312.8710632324219 260.7130126953125 C 310.2708435058594 257.20703125 308.8777160644531 253.0214538574219 308.88330078125 248.7321166992188 Z M 331.2098388671875 269.7294921875 C 328.3235168457031 269.7325744628906 325.4635925292969 269.2068481445313 322.78662109375 268.1810913085938 L 329.0569763183594 250.9757385253906 C 329.6364135742188 251.4682312011719 330.3837280273438 251.7449035644531 331.1609802246094 251.754638671875 L 332.3841857910156 269.6993103027344 C 331.9943542480469 269.7194519042969 331.6029052734375 269.7294921875 331.2098388671875 269.7294921875 Z M 342.8623962402344 266.6441955566406 L 332.7854309082031 251.3686828613281 C 333.1128234863281 251.1950073242188 333.4059143066406 250.9684143066406 333.6514282226563 250.6990661621094 L 349.7981872558594 260.3735656738281 C 347.9901428222656 262.9154052734375 345.6239013671875 265.0547180175781 342.8623962402344 266.6442260742188 Z" fill="url(#gradient)" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-534.97, -464.79)" d="M 671.4680786132813 617.5404052734375 L 669.9364624023438 594.7782592773438 L 669.9046020507813 594.7294311523438 L 668.3585205078125 595.2408447265625 L 661.24169921875 614.9595336914063 L 649.9267578125 607.3333740234375 L 667.9548950195313 594.9154052734375 L 667.971923828125 594.8665771484375 L 668.0747680664063 594.8317260742188 L 669.23681640625 594.0294799804688 L 650.3402099609375 583.9597778320313 L 645.7091064453125 588.7958984375 L 646.4429321289063 593.3297119140625 L 668.167724609375 593.6970825195313 L 668.167724609375 594.162109375 L 646.0319213867188 593.7854614257813 L 645.2000732421875 588.644775390625 L 651.5340576171875 582.0299682617188 L 661.0068359375 571.52783203125 L 661.1756591796875 571.9625854492188 L 663.1817626953125 569.8700561523438 L 670.6532592773438 571.141845703125 L 670.6532592773438 570.8604736328125 L 671.142578125 570.8744506835938 L 671.142578125 571.2255249023438 L 682.2398071289063 573.1134033203125 L 671.8838500976563 592.794921875 L 670.3743896484375 593.834228515625 L 670.3743896484375 593.9505004882813 L 670.3743896484375 594.0806274414063 L 694.303466796875 586.1569213867188 L 691.4630737304688 607.3636474609375 L 671.1572875976563 595.0711059570313 L 670.44287109375 594.6898193359375 L 682.4158935546875 613.0321655273438 L 671.4680786132813 617.5404052734375 Z M 670.4894409179688 595.6060180664063 L 671.9205932617188 616.8521728515625 L 681.7186889648438 612.811279296875 L 670.4894409179688 595.6060180664063 Z M 650.7781372070313 607.3333740234375 L 661.0018920898438 614.2225952148438 L 667.690673828125 595.6826782226563 L 650.7781372070313 607.3333740234375 Z M 670.9175415039063 594.392333984375 L 671.4288330078125 594.664306640625 L 691.0862426757813 606.5685424804688 L 693.7285766601563 586.8358764648438 L 670.9175415039063 594.392333984375 Z M 669.1806030273438 592.71826171875 L 669.7946166992188 593.6598510742188 L 669.9022216796875 593.5855102539063 L 670.63623046875 571.6068725585938 L 663.3603515625 570.3652954101563 L 661.3640747070313 572.4578857421875 L 669.1806030273438 592.71826171875 Z M 650.7363891601563 583.6389770507813 L 669.0459594726563 593.4041137695313 L 668.7279663085938 592.9088745117188 L 661.0018920898438 572.8507080078125 L 651.901123046875 582.3555297851563 L 650.7363891601563 583.6389770507813 Z M 671.1326904296875 571.6905517578125 L 670.3988647460938 593.2413330078125 L 671.5045776367188 592.478759765625 L 681.5132446289063 573.4552612304688 L 671.1326904296875 571.6905517578125 Z" fill="#535461" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-213.04, -464.47)" d="M 245.2702941894531 617.125 L 243.7363891601563 594.353515625 L 243.7045288085938 594.3046875 L 242.1583862304688 594.816162109375 L 235.0440368652344 614.544189453125 L 223.7290649414063 606.92041015625 L 241.7522583007813 594.5023193359375 L 241.7693786621094 594.4534912109375 L 241.8721618652344 594.4186401367188 L 243.0342407226563 593.6165161132813 L 224.1376342773438 583.5467529296875 L 219.5088958740234 588.3828735351563 L 220.2428436279297 592.9166259765625 L 241.9724426269531 593.2932739257813 L 241.9724426269531 593.7583618164063 L 219.8367156982422 593.3817138671875 L 219.0000152587891 588.2340698242188 L 225.3363647460938 581.616943359375 L 234.8164978027344 571.1077270507813 L 234.9853210449219 571.54248046875 L 236.9914245605469 569.449951171875 L 244.4434204101563 570.7195434570313 L 244.4434204101563 570.4381713867188 L 244.9327087402344 570.4521484375 L 244.9327087402344 570.8031616210938 L 256.0299072265625 572.6911010742188 L 245.6837463378906 592.3633422851563 L 244.1742858886719 593.4025268554688 L 244.1742858886719 593.5188598632813 L 244.1742858886719 593.6490478515625 L 268.1008911132813 585.7252807617188 L 265.2605285644531 606.9319458007813 L 244.9547424316406 594.6395263671875 L 244.2403259277344 594.2582397460938 L 256.21337890625 612.59814453125 L 245.2702941894531 617.125 Z M 244.291748046875 595.1906127929688 L 245.7229309082031 616.436767578125 L 255.5210571289063 612.3958740234375 L 244.291748046875 595.1906127929688 Z M 224.5779724121094 606.915771484375 L 234.8018493652344 613.8048706054688 L 241.4905090332031 595.2649536132813 L 224.5779724121094 606.915771484375 Z M 244.7174072265625 593.9745483398438 L 245.2287292480469 594.2466430664063 L 264.8861694335938 606.1508178710938 L 267.5283508300781 586.4182739257813 L 244.7174072265625 593.9745483398438 Z M 242.9804077148438 592.300537109375 L 243.594482421875 593.2422485351563 L 243.7021179199219 593.1677856445313 L 244.4360656738281 571.1890869140625 L 237.1602478027344 569.9522094726563 L 235.1639099121094 572.0447387695313 L 242.9804077148438 592.300537109375 Z M 224.529052734375 583.2189331054688 L 242.8385009765625 592.9840698242188 L 242.5204467773438 592.4888916015625 L 234.7944946289063 572.4306640625 L 225.696044921875 581.9332275390625 L 224.529052734375 583.2189331054688 Z M 244.9327087402344 571.2705078125 L 244.1987609863281 592.8283081054688 L 245.3045349121094 592.065673828125 L 255.3131408691406 573.0421752929688 L 244.9327087402344 571.2705078125 Z" fill="#535461" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="matrix(0.71178, 0.7024, -0.7024, 0.71178, 54.07, 104.94)" d="M 0.02980300784111023 0.09930923581123352 L 14.34920310974121 -0.2649674117565155 L 14.23384571075439 4.266448020935059 L -0.08555126935243607 4.630724430084229 L 0.02980300784111023 0.09930923581123352 Z" fill="#2f4294" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="matrix(0.71178, 0.7024, -0.7024, 0.71178, 54.07, 104.94)" d="M 0.02980300784111023 0.09930923581123352 L 14.34920310974121 -0.2649674117565155 L 14.23384571075439 4.266448020935059 L -0.08555126935243607 4.630724430084229 L 0.02980300784111023 0.09930923581123352 Z" fill="#29397b" fill-opacity="0.1" stroke="none" stroke-width="1" stroke-opacity="0.1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-369.12, -403.9)" d="M 425.6300354003906 504.2484130859375 C 425.6300354003906 504.2484130859375 431.6948547363281 501.207275390625 434.03857421875 499.2495727539063 C 435.4495239257813 498.076416015625 436.9664916992188 497.0237426757813 438.5718994140625 496.1038208007813 L 446.1804504394531 491.7025146484375 L 462.0825500488281 490.5399780273438 L 462.8165588378906 493.0974731445313 C 462.8165588378906 493.0974731445313 464.0397033691406 496.817626953125 451.8073425292969 500.0726928710938 C 439.574951171875 503.3276977539063 433.458740234375 508.4426879882813 433.458740234375 508.4426879882813 C 433.458740234375 508.4426879882813 425.6300354003906 510.9910888671875 425.6300354003906 504.2484130859375 Z" fill="#db8b8b" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-369.12, -447.47)" d="M 434.1070556640625 551.509033203125 C 433.6740112304688 551.8229370117188 433.458740234375 552.0042724609375 433.458740234375 552.0042724609375 C 433.458740234375 552.0042724609375 425.6300354003906 554.5618896484375 425.6300354003906 547.8192138671875 C 425.6300354003906 547.8192138671875 426.00927734375 547.6285400390625 426.6085815429688 547.3099975585938 C 427.8399963378906 549.2156372070313 430.0243530273438 550.376953125 432.3774108886719 550.3767700195313 L 433.2068176269531 550.3767700195313 L 434.1070556640625 551.509033203125 Z" fill="#000000" fill-opacity="0.1" stroke="none" stroke-width="1" stroke-opacity="0.1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-369.12, -403.87)" d="M 462.5865783691406 494.3502197265625 C 461.9064025878906 495.7197265625 459.5602722167969 497.9703979492188 451.8073425292969 500.03271484375 C 441.8721923828125 502.6762084960938 435.9712524414063 506.5427856445313 434.1070556640625 507.9075927734375 C 433.6740112304688 508.2214965820313 433.458740234375 508.40283203125 433.458740234375 508.40283203125 C 433.458740234375 508.40283203125 425.6300354003906 510.9603881835938 425.6300354003906 504.2177734375 C 425.6300354003906 504.2177734375 426.00927734375 504.0270385742188 426.6085815429688 503.70849609375 C 428.4263610839844 502.7623291015625 432.274658203125 500.68603515625 434.0312194824219 499.2095947265625 C 435.4418029785156 498.0361328125 436.9588317871094 496.9833984375 438.5645446777344 496.0638427734375 L 446.1731262207031 491.6625366210938 L 449.0061340332031 491.4556274414063 L 462.0752258300781 490.5 L 462.8092346191406 493.0574951171875 C 462.8092346191406 493.0574951171875 462.9804382324219 493.557373046875 462.5865783691406 494.3502197265625 Z" fill="#000000" fill-opacity="0.05" stroke="none" stroke-width="1" stroke-opacity="0.05" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-349.48, -444.16)" d="M 406.11328125 542.9973754882813 L 399.6300659179688 547.0662231445313 L 418.61474609375 562.178955078125 C 418.61474609375 562.178955078125 421.4037475585938 560.551513671875 419.9358520507813 558.6913452148438 C 419.9358520507813 558.6913452148438 415.0429382324219 554.7388916015625 414.7982482910156 549.15869140625 L 413.3303527832031 547.2987060546875 L 412.5009765625 547.2987060546875 C 409.6259155273438 547.2987060546875 407.0651245117188 545.5739135742188 406.1129455566406 542.9966430664063 Z" fill="#abb1d1" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-441.32, -403.87)" d="M 534.7830810546875 494.3502197265625 C 530.86865234375 492.552978515625 521.312744140625 492.3600463867188 521.312744140625 492.3600463867188 L 521.2101440429688 491.4556274414063 L 534.2791137695313 490.5 L 535.0130615234375 493.0574951171875 C 535.0130615234375 493.0574951171875 535.1770629882813 493.557373046875 534.7830810546875 494.3502197265625 Z" fill="#000000" fill-opacity="0.1" stroke="none" stroke-width="1" stroke-opacity="0.1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-432.57, -324.05)" d="M 512.5658569335938 412.0754699707031 C 512.5658569335938 412.0754699707031 524.0643310546875 412.3079833984375 527.0000610351563 414.6330261230469 L 525.5321044921875 386.5000915527344 L 509.6300659179688 386.5000915527344 L 512.5658569335938 412.0754699707031 Z" fill="#abb1d1" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-432.57, -323.67)" d="M 512.5658569335938 411.5754699707031 C 512.5658569335938 411.5754699707031 524.0643310546875 411.8079833984375 527.0000610351563 414.1329650878906 L 525.5321044921875 385.9999694824219 L 509.6300659179688 385.9999694824219 L 512.5658569335938 411.5754699707031 Z" fill="#000000" fill-opacity="0.05" stroke="none" stroke-width="1" stroke-opacity="0.05" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-523.26, -454.24)" d="M 658.515869140625 556.1199951171875 C 655.9193115234375 556.1173095703125 653.3342895507813 556.4488525390625 650.83154296875 557.1058349609375 C 649.5405883789063 557.444091796875 648.2766723632813 557.869140625 647.0491943359375 558.3775634765625 C 633.50341796875 563.9581298828125 626.5933227539063 578.37109375 631.05029296875 591.7474365234375 C 635.507568359375 605.1236572265625 649.8877563476563 613.1292724609375 664.3445434570313 610.2822265625 C 678.80126953125 607.435302734375 688.650146484375 594.658447265625 687.1473999023438 580.7003173828125 C 685.644775390625 566.7423095703125 673.2772827148438 556.12548828125 658.5133666992188 556.1199951171875 Z M 658.41796875 604.036865234375 C 648.195068359375 604.032958984375 639.356201171875 597.2603759765625 637.183837890625 587.766845703125 C 635.0114135742188 578.273193359375 640.092529296875 568.623779296875 649.3904418945313 564.5855712890625 C 650.5383911132813 564.0860595703125 651.7302856445313 563.683837890625 652.9525756835938 563.3834228515625 C 661.1087036132813 561.3714599609375 669.7534790039063 564.0203857421875 675.1366577148438 570.1812744140625 C 680.5199584960938 576.3421630859375 681.671630859375 584.9046630859375 678.0921020507813 592.154296875 C 674.5125732421875 599.404052734375 666.8467407226563 604.034423828125 658.4204711914063 604.0367431640625 Z" fill="#1b254e" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-468.13, -351.29)" d="M 557.367431640625 422.0953063964844 C 557.367431640625 422.0953063964844 586.1502685546875 421.1652526855469 586.7374267578125 424.70166015625 C 587.3245849609375 428.2380981445313 557.95458984375 426.7476501464844 557.95458984375 426.7476501464844 C 557.95458984375 426.7476501464844 555.6060180664063 424.5132751464844 557.367431640625 422.0953063964844 Z" fill="#535461" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-468.13, -351.29)" d="M 557.367431640625 422.0953063964844 C 557.367431640625 422.0953063964844 586.1502685546875 421.1652526855469 586.7374267578125 424.70166015625 C 587.3245849609375 428.2380981445313 557.95458984375 426.7476501464844 557.95458984375 426.7476501464844 C 557.95458984375 426.7476501464844 555.6060180664063 424.5132751464844 557.367431640625 422.0953063964844 Z" fill="#000000" fill-opacity="0.05" stroke="none" stroke-width="1" stroke-opacity="0.05" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_c3occa =
+    '<svg viewBox="2.2 71.9 134.0 84.6" ><path transform="translate(-382.5, -398.33)" d="M 448.4310913085938 483.2799682617188 L 448.4310913085938 486.518798828125 C 446.7380981445313 486.72802734375 445.0060424804688 486.860595703125 443.3399658203125 486.9116821289063 L 443.3399658203125 483.2799682617188 L 448.4310913085938 483.2799682617188 Z" fill="#000000" fill-opacity="0.1" stroke="none" stroke-width="1" stroke-opacity="0.1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-350.92, -383.39)" d="M 416.4777221679688 464.8565673828125 C 415.763427734375 464.8040771484375 415.0527954101563 464.7132568359375 414.3492431640625 464.5845336914063 C 411.5896606445313 464.0823364257813 404.6318359375 463.0291137695313 402.7603149414063 464.8170166015625 C 400.4116821289063 467.049072265625 401.194580078125 470.95751953125 407.4600219726563 471.5155029296875 C 413.7254028320313 472.0735473632813 424.4948120117188 470.5855102539063 426.6502075195313 468.3511352539063 C 426.6502075195313 468.341796875 422.7529296875 465.3146362304688 416.4777221679688 464.8565673828125 Z" fill="#535461" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-322.83, -326.7)" d="M 387.4000244140625 423.187255859375 L 440.8556213378906 407.3699951171875 L 442.6170959472656 411.2783813476563 L 387.7914733886719 429.1416625976563 L 387.4000244140625 423.187255859375 Z" fill="#29397b" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-371.8, -342.06)" d="M 452.2300415039063 463.4809265136719 L 490.8037109375 427.3800354003906 L 492.9566040039063 430.3560485839844 L 456.1444091796875 466.8290100097656 L 452.2300415039063 463.4809265136719 Z" fill="#29397b" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-576.83, -457.48)" d="M 706.5108642578125 566.6298828125 C 705.2886962890625 566.9302978515625 704.0967407226563 567.33251953125 702.9488525390625 567.83203125 L 700.6099853515625 561.6217041015625 C 701.8375244140625 561.11328125 703.101318359375 560.688232421875 704.3922729492188 560.3499755859375 L 706.5108642578125 566.6298828125 Z" fill="#000000" fill-opacity="0.1" stroke="none" stroke-width="1" stroke-opacity="0.1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-473.97, -302.74)" d="M 610.2030639648438 430.1165466308594 L 607.4630737304688 431.6046142578125 L 588.3462524414063 380.8419189453125 L 587.4900512695313 378.5703735351563 L 591.993896484375 376.1499938964844 L 593.1218872070313 379.4934387207031 L 610.2030639648438 430.1165466308594 Z" fill="#29397b" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-473.97, -302.74)" d="M 593.1218872070313 379.4934387207031 L 588.3462524414063 380.8419189453125 L 587.4900512695313 378.5703735351563 L 591.993896484375 376.1499938964844 L 593.1218872070313 379.4934387207031 Z" fill="#000000" fill-opacity="0.1" stroke="none" stroke-width="1" stroke-opacity="0.1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-471.71, -355.34)" d="M 561.7296142578125 436.0068359375 L 588.5552368164063 427.2600708007813 C 588.5552368164063 427.2600708007813 593.2548828125 427.8180236816406 591.490966796875 431.5404052734375 L 564.4721069335938 439.1689453125 C 564.4721069335938 439.1689453125 560.3621215820313 439.5408935546875 561.7296142578125 436.0068359375 Z" fill="#535461" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-201.44, -453.93)" d="M 260.5071105957031 577.0509033203125 C 259.5259094238281 572.9078369140625 257.5395812988281 569.0399169921875 254.7065124511719 565.7557983398438 C 253.6548156738281 564.535400390625 252.4949951171875 563.4027709960938 251.2398071289063 562.37060546875 C 241.3138732910156 554.22607421875 226.8499755859375 553.487548828125 216.0628967285156 560.5743408203125 C 205.2758178710938 567.6611938476563 200.8928833007813 580.7816772460938 205.4033508300781 592.4840087890625 C 209.9138488769531 604.1863403320313 222.1773376464844 611.5117797851563 235.2288818359375 610.2999877929688 C 248.2803955078125 609.0880126953125 258.8200378417969 599.645263671875 260.8618774414063 587.3345336914063 C 261.0928955078125 585.9253540039063 261.2090148925781 584.5012817382813 261.2092895507813 583.0750122070313 C 261.2109069824219 581.0484619140625 260.9754333496094 579.0279541015625 260.5071105957031 577.0509033203125 Z M 232.3261108398438 603.6377563476563 C 223.188232421875 603.6286010742188 215.0343933105469 598.1832275390625 211.9288024902344 590.015869140625 C 208.8232116699219 581.8485107421875 211.4306945800781 572.7073974609375 218.4515380859375 567.1488037109375 C 225.4723510742188 561.5903930664063 235.4037170410156 560.8043823242188 243.2952880859375 565.1824951171875 C 251.1869201660156 569.5607299804688 255.3495483398438 578.166015625 253.7083435058594 586.7091674804688 C 251.8150939941406 596.5173950195313 242.8188781738281 603.6397705078125 232.3261108398438 603.6377563476563 Z" fill="#1b254e" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-355.42, -524.35)" d="M 415.1841430664063 653.4994506835938 C 415.1841430664063 654.9210815429688 415.0682373046875 656.3451538085938 414.8374938964844 657.7544555664063 C 412.4882202148438 657.5985107421875 410.0612487792969 657.3660888671875 407.6832885742188 657.133544921875 C 408.2115783691406 654.3689575195313 408.1458435058594 651.5311889648438 407.489990234375 648.791259765625 C 409.8068237304688 648.326171875 412.1725769042969 647.8821411132813 414.4819946289063 647.47998046875 C 414.9500122070313 649.4554443359375 415.1854858398438 651.4745483398438 415.1841430664063 653.4994506835938 Z" fill="#000000" fill-opacity="0.1" stroke="none" stroke-width="1" stroke-opacity="0.1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-382.5, -520.83)" d="M 448.4310913085938 642.8900146484375 L 448.4310913085938 647.8353881835938 L 443.3399658203125 647.8353881835938 L 443.3399658203125 643.6502685546875 C 445.1015014648438 643.359619140625 446.8140258789063 643.1016235351563 448.4310913085938 642.8900146484375 Z" fill="#000000" fill-opacity="0.1" stroke="none" stroke-width="1" stroke-opacity="0.1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-294.26, -520.13)" d="M 327.295654296875 649.184814453125 C 327.295654296875 649.184814453125 368.4160461425781 638.95458984375 371.7432556152344 642.8583374023438 C 375.0704040527344 646.7620239257813 378.5958251953125 651.974853515625 368.2276306152344 653.8348388671875 C 357.8594970703125 655.6948852539063 326.5200500488281 650.67041015625 326.5200500488281 650.67041015625 L 327.295654296875 649.184814453125 Z" fill="#29397b" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-333.32, -475.88)" d="M 386.5874328613281 587.7052001953125 L 381.3616943359375 592.250732421875 C 380.4363403320313 591.12158203125 379.3901672363281 590.0869140625 378.2400512695313 589.1629638671875 L 383.1183166503906 584.3199462890625 C 384.3742980957031 585.35205078125 385.5349426269531 586.484619140625 386.5874328613281 587.7052001953125 Z" fill="#000000" fill-opacity="0.1" stroke="none" stroke-width="1" stroke-opacity="0.1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-221.27, -378.91)" d="M 252.9400177001953 505.9185485839844 L 283.6800231933594 475.3999938964844 L 284.6610412597656 482.4704895019531 L 254.5057830810547 508.7085876464844 L 252.9400177001953 505.9185485839844 Z" fill="#29397b" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_u61q6b =
+    '<svg viewBox="56.5 0.5 55.1 135.1" ><path transform="matrix(0.80084, -0.59888, 0.59888, 0.80084, 76.85, 126.58)" d="M 1.622914552688599 0.02864272519946098 L 1.625317215919495 0.02870096452534199 C 2.52774453163147 0.05057380348443985 3.277037858963013 0.7894158363342285 3.298910856246948 1.678950905799866 L 3.496582984924316 9.71796703338623 C 3.518454551696777 10.60750198364258 2.804625034332275 11.31087970733643 1.902198314666748 11.28900909423828 L 1.899795174598694 11.28894901275635 C 0.997367799282074 11.26707744598389 0.2480746358633041 10.52823543548584 0.2262017726898193 9.638699531555176 L 0.02852984890341759 1.599684000015259 C 0.00665702298283577 0.7101488709449768 0.7204871773719788 0.006769889965653419 1.622914552688599 0.02864272519946098 Z" fill="#2f4294" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-498.86, -254.21)" d="M 606.994140625 297.592529296875 L 606.4119873046875 304.5932312011719 C 606.3449096679688 305.4800109863281 606.357177734375 306.3705749511719 606.4485473632813 307.2554016113281 C 606.5244750976563 308.0389709472656 606.4485473632813 309.4107360839844 605.641357421875 311.5032653808594 C 604.6046752929688 314.1763305664063 604.0690307617188 317.0013427734375 604.0584716796875 319.8501892089844 L 604.0584716796875 327.8180541992188 L 598.4315795898438 326.8880615234375 C 598.4315795898438 326.8880615234375 598.6762084960938 315.7278442382813 597.6975708007813 313.8678283691406 C 596.7191162109375 312.0077514648438 598.4315795898438 295.5 598.4315795898438 295.5 L 606.994140625 297.592529296875 Z" fill="#db8b8b" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-498.87, -254.21)" d="M 606.7137451171875 301.0614929199219 L 606.420166015625 304.5932312011719 C 606.3540649414063 305.4793395996094 606.3671875 306.3690795898438 606.4592895507813 307.2530822753906 C 606.53515625 308.0366516113281 606.4592895507813 309.4083862304688 605.6520385742188 311.5032958984375 C 604.615478515625 314.1763305664063 604.0797119140625 317.0013427734375 604.069091796875 319.8501892089844 L 604.069091796875 327.8180541992188 L 598.4422607421875 326.8880615234375 C 598.4422607421875 326.8880615234375 598.6868286132813 315.7278442382813 597.7083129882813 313.8678283691406 C 597.0159912109375 312.5494995117188 597.671630859375 303.8841247558594 598.1143798828125 298.9387817382813 C 598.2978515625 296.9043273925781 598.4422607421875 295.5 598.4422607421875 295.5 L 607.0048828125 297.592529296875 L 606.7137451171875 301.0614929199219 Z" fill="#000000" fill-opacity="0.05" stroke="none" stroke-width="1" stroke-opacity="0.05" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-404.78, -393.77)" d="M 485.0284118652344 490.6319580078125 L 482.9121398925781 502.0711669921875 C 482.6453552246094 503.5984497070313 482.2359924316406 505.1001586914063 481.6889343261719 506.5584716796875 C 480.4485778808594 509.781005859375 481.2413024902344 514.2985229492188 481.8430480957031 516.7631225585938 C 482.1097106933594 517.8512573242188 482.3323669433594 518.5394897460938 482.3323669433594 518.5394897460938 L 475.9715881347656 521.7944946289063 L 474.0143737792969 520.3994750976563 L 474.0143737792969 519.469482421875 L 473.7696838378906 498.7765502929688 C 472.3017883300781 495.521484375 472.7911071777344 490.638916015625 473.7696838378906 488.7789306640625 C 474.0479431152344 488.1677856445313 474.2435607910156 487.5255737304688 474.3518981933594 486.8677368164063 C 474.8412780761719 484.375244140625 474.9929504394531 480.873779296875 474.9929504394531 480.873779296875 C 474.9929504394531 480.873779296875 478.9073181152344 474.5961303710938 483.5556335449219 478.7811889648438 C 485.2680969238281 480.32275390625 485.9188537597656 482.3385009765625 486.0558776855469 484.268310546875 C 486.2956848144531 487.5722045898438 485.0284118652344 490.6319580078125 485.0284118652344 490.6319580078125 Z" fill="#db8b8b" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-409.44, -393.75)" d="M 490.7139587402344 484.23828125 C 487.3207702636719 486.1541748046875 481.4173278808594 486.6958618164063 479.0099792480469 486.8377075195313 C 479.4992980957031 484.3452758789063 479.6509094238281 480.84375 479.6509094238281 480.84375 C 479.6509094238281 480.84375 483.5653381347656 474.566162109375 488.2136535644531 478.751220703125 C 489.9262390136719 480.292724609375 490.5769958496094 482.3085327148438 490.7139587402344 484.23828125 Z" fill="#000000" fill-opacity="0.1" stroke="none" stroke-width="1" stroke-opacity="0.1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-368.95, -283.38)" d="M 458.4874877929688 368.1431274414063 C 455.8858642578125 369.4597778320313 453.427490234375 371.0173645019531 451.14794921875 372.7932434082031 C 447.233642578125 375.8157958984375 437.44775390625 376.0482788085938 437.44775390625 376.0482788085938 L 437.44775390625 372.5606994628906 C 437.6923828125 368.3756713867188 433.5333557128906 363.7255249023438 427.9064331054688 350.7053527832031 C 424.3126525878906 342.3909912109375 425.3082580566406 337.68505859375 426.4972534179688 335.3600463867188 C 427.1725463867188 334.04638671875 427.9064331054688 333.5 427.9064331054688 333.5 L 458.4874877929688 339.0801086425781 L 459.5809936523438 342.1956787109375 L 461.9125366210938 348.8452758789063 C 461.9125366210938 348.8452758789063 453.349853515625 349.310302734375 451.8818969726563 350.0078430175781 C 450.4140625 350.7053527832031 451.3927001953125 356.9829406738281 451.3927001953125 356.9829406738281 C 449.9248046875 363.4930725097656 458.4874877929688 368.1431274414063 458.4874877929688 368.1431274414063 Z" fill="#abb1d1" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-501.05, -254.21)" d="M 609.1806030273438 297.592529296875 L 608.891845703125 301.0614929199219 C 604.6349487304688 302.2240600585938 601.596435546875 298.5225524902344 601.596435546875 298.5225524902344 C 601.1525268554688 298.6356811523438 600.7162475585938 298.7746887207031 600.2901000976563 298.9387817382813 C 600.4735107421875 296.9043273925781 600.617919921875 295.5 600.617919921875 295.5 L 609.1806030273438 297.592529296875 Z" fill="#000000" fill-opacity="0.1" stroke="none" stroke-width="1" stroke-opacity="0.1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-371.38, -283.38)" d="M 462.01708984375 342.1956787109375 C 461.9021606445313 343.2814636230469 461.9021606445313 343.9626770019531 461.9021606445313 343.9626770019531 C 461.9021606445313 343.9626770019531 456.2752685546875 348.3803100585938 446.7340087890625 341.6376647949219 C 437.1927490234375 334.89501953125 428.6300354003906 336.7550964355469 428.6300354003906 336.7550964355469 C 428.6300354003906 336.7550964355469 428.7303771972656 336.2156982421875 428.9334411621094 335.3600463867188 C 429.6086120605469 334.04638671875 430.3425598144531 333.5 430.3425598144531 333.5 L 460.923583984375 339.0801086425781 L 462.01708984375 342.1956787109375 Z" fill="#000000" fill-opacity="0.1" stroke="none" stroke-width="1" stroke-opacity="0.1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-371.38, -165.91)" d="M 482.8146057128906 200.212890625 C 482.1760559082031 204.9443511962891 481.9632873535156 210.9080657958984 481.9632873535156 210.9080657958984 C 476.3363952636719 215.0931549072266 471.9327087402344 209.7455596923828 471.9327087402344 209.7455596923828 C 466.6189270019531 211.1010437011719 464.1210632324219 215.5209655761719 462.9443054199219 219.3781890869141 C 462.3140563964844 221.4646301269531 461.9638366699219 223.6184234619141 461.9021301269531 225.7883453369141 C 461.9021301269531 225.7883453369141 460.4147033691406 226.9508666992188 457.6745910644531 227.1833801269531 C 455.0837707519531 227.3903045654297 451.3700256347656 226.7485961914063 446.7339782714844 223.4633178710938 C 437.192626953125 216.7206878662109 428.6300048828125 218.5807037353516 428.6300048828125 218.5807037353516 C 428.6300048828125 218.5807037353516 430.342529296875 209.2805480957031 434.2568969726563 206.490478515625 C 438.1712951660156 203.7004547119141 441.1069946289063 200.212890625 446.0000305175781 189.5176696777344 C 450.8929748535156 178.8224945068359 460.9235534667969 181.3800201416016 460.9235534667969 181.3800201416016 C 460.9235534667969 181.3800201416016 461.4128112792969 179.2874908447266 470.4648132324219 181.3800201416016 C 472.6695861816406 181.9292144775391 474.7103576660156 182.9566497802734 476.4269104003906 184.3816528320313 C 481.2685241699219 188.2505187988281 483.6170349121094 194.2514495849609 482.8146057128906 200.212890625 Z" fill="#ffffff" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-470.36, -177.38)" d="M 572.7095336914063 198.0953216552734 C 572.6973876953125 198.404541015625 572.67041015625 198.7486419677734 572.6262817382813 199.1322937011719 C 572.1370849609375 203.3173675537109 571.6476440429688 202.8523406982422 566.2654418945313 203.7823638916016 C 562.918701171875 204.3613128662109 561.1793212890625 201.7037963867188 560.342529296875 199.6112213134766 C 560.039794921875 198.8532257080078 559.811279296875 198.0702514648438 559.6600341796875 197.2722473144531 L 571.4031372070313 195.4122161865234 C 571.4031372070313 195.4122161865234 572.809814453125 195.0378875732422 572.7095336914063 198.0953216552734 Z" fill="#db8b8b" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-421.99, -232.75)" d="M 513.552978515625 286.2242126464844 C 512.9226684570313 288.3106079101563 512.572509765625 290.4643859863281 512.5108032226563 292.6343383789063 C 512.5108032226563 292.6343383789063 511.0233154296875 293.796875 508.2832641601563 294.0293884277344 C 508.2061157226563 293.8812561035156 508.14697265625 293.7252197265625 508.1071166992188 293.5643920898438 C 507.6177978515625 291.4718322753906 503.9481201171875 287.7517700195313 503.9481201171875 287.7517700195313 C 501.5016479492188 285.6592102050781 501.0123291015625 281.9391479492188 501.0123291015625 281.9391479492188 L 496.9756469726563 270.6626892089844 L 495.6300659179688 269.6164245605469 C 495.6300659179688 269.6164245605469 501.2569580078125 265.4313354492188 506.1499633789063 268.9188842773438 C 511.0428466796875 272.406494140625 509.5750122070313 279.8466186523438 509.5750122070313 279.8466186523438 L 510.5536499023438 282.4041748046875 C 511.5689086914063 283.2179565429688 512.601318359375 284.6524658203125 513.552978515625 286.2242126464844 Z" fill="#000000" fill-opacity="0.05" stroke="none" stroke-width="1" stroke-opacity="0.05" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-424.26, -231.98)" d="M 498.6300354003906 268.616455078125 L 504.0123596191406 280.9391784667969 C 504.0123596191406 280.9391784667969 504.5016174316406 284.6592407226563 506.9481506347656 286.7518005371094 C 506.9481506347656 286.7518005371094 510.6177673339844 290.4718627929688 511.1071472167969 292.5644226074219 C 511.5964050292969 294.6569213867188 518.4464721679688 300.237060546875 518.4464721679688 300.237060546875 C 518.4464721679688 300.237060546875 524.8074340820313 305.8171081542969 525.2965698242188 307.90966796875 C 525.2965698242188 307.90966796875 531.1680908203125 309.5371704101563 530.4342041015625 312.792236328125 C 530.4342041015625 312.792236328125 534.8379516601563 308.6071472167969 530.4342041015625 304.6546020507813 C 526.030517578125 300.7019958496094 520.1590576171875 292.5644226074219 520.1590576171875 292.5644226074219 C 520.1590576171875 292.5644226074219 516.7339477539063 283.9617309570313 513.5535888671875 281.4041748046875 L 512.5750122070313 278.8466186523438 C 512.5750122070313 278.8466186523438 514.042724609375 271.4065246582031 509.1498718261719 267.9189147949219 C 504.2569274902344 264.4313659667969 498.6300354003906 268.616455078125 498.6300354003906 268.616455078125 Z" fill="#db8b8b" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-408.4, -523.92)" d="M 485.9480590820313 648.6747436523438 L 479.5872192382813 651.9298095703125 L 477.6300659179688 650.5348510742188 L 477.6300659179688 649.604736328125 C 479.8279418945313 649.4563598632813 481.96337890625 648.843994140625 483.8807373046875 647.8121337890625 C 484.4678955078125 647.4959716796875 485.0208129882813 647.1843872070313 485.463623046875 646.909912109375 C 485.7205200195313 647.9865112304688 485.9480590820313 648.6747436523438 485.9480590820313 648.6747436523438 Z" fill="#000000" fill-opacity="0.1" stroke="none" stroke-width="1" stroke-opacity="0.1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-408.4, -196.48)" d="M 493.2874755859375 223.3502655029297 L 496.7125244140625 236.1380004882813 C 496.7125244140625 236.1380004882813 486.1926879882813 237.7655334472656 483.9909057617188 236.1380004882813 C 481.7890625 234.510498046875 477.6300659179688 234.0454406738281 477.6300659179688 234.0454406738281 C 477.6300659179688 234.0454406738281 482.0336303710938 221.9552307128906 484.4801635742188 220.5602111816406 C 486.9266357421875 219.1651763916016 493.2874755859375 223.3502655029297 493.2874755859375 223.3502655029297 Z" fill="#000000" fill-opacity="0.1" stroke="none" stroke-width="1" stroke-opacity="0.1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-408.4, -194.94)" d="M 493.2874755859375 221.3502655029297 L 496.7125244140625 234.1380004882813 C 496.7125244140625 234.1380004882813 486.1926879882813 235.7655334472656 483.9909057617188 234.1380004882813 C 481.7890625 232.5104675292969 477.6300659179688 232.0454406738281 477.6300659179688 232.0454406738281 C 477.6300659179688 232.0454406738281 482.0336303710938 219.9552307128906 484.4801635742188 218.5602264404297 C 486.9266357421875 217.1651763916016 493.2874755859375 221.3502655029297 493.2874755859375 221.3502655029297 Z" fill="#ffffff" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-470.36, -176.62)" d="M 572.7095947265625 197.0953063964844 C 571.32470703125 198.9121398925781 569.2120361328125 200.1050109863281 566.8706665039063 200.3919982910156 C 564.5293579101563 200.6789855957031 562.1672973632813 200.0346374511719 560.3425903320313 198.6112365722656 C 560.0398559570313 197.8532104492188 559.811279296875 197.0701904296875 559.6600952148438 196.2722473144531 L 571.4031372070313 194.4122009277344 C 571.4031372070313 194.4122009277344 572.809814453125 194.0379028320313 572.7095947265625 197.0953063964844 Z" fill="#000000" fill-opacity="0.1" stroke="none" stroke-width="1" stroke-opacity="0.1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-462.78, -141.48)" d="M 566.7554321289063 156.9614562988281 C 566.7554321289063 161.4557495117188 562.9217529296875 165.09912109375 558.1927490234375 165.09912109375 C 553.4637451171875 165.09912109375 549.6300659179688 161.4557495117188 549.6300659179688 156.9614562988281 C 549.6300659179688 156.8265991210938 549.6300659179688 156.6917724609375 549.6300659179688 156.556884765625 C 549.7476806640625 152.0625915527344 553.676513671875 148.5098266601563 558.4056396484375 148.6215209960938 C 563.1347045898438 148.7332458496094 566.873046875 152.4671630859375 566.7554321289063 156.9614562988281 Z" fill="#db8b8b" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-462.82, -141.48)" d="M 566.7931518554688 156.9614562988281 C 566.7938842773438 157.7114562988281 566.6851196289063 158.4579467773438 566.4702758789063 159.1795349121094 C 565.808349609375 159.3166198730469 565.1181030273438 159.2565612792969 564.493408203125 159.0074768066406 C 563.5784301757813 158.6657104492188 562.7930297851563 158.0774841308594 561.9148559570313 157.6543273925781 C 559.4415283203125 156.4638977050781 556.498291015625 156.69873046875 553.7582397460938 157.0916442871094 C 552.3980712890625 157.2869567871094 550.8543090820313 157.4683227539063 549.78515625 156.6452331542969 C 549.7484130859375 156.6177062988281 549.7133178710938 156.5882263183594 549.6800537109375 156.556884765625 C 549.7975463867188 152.0625915527344 553.7265014648438 148.5098266601563 558.45556640625 148.6215209960938 C 563.1845703125 148.7332458496094 566.9229125976563 152.4671630859375 566.8053588867188 156.9614562988281 Z" fill="#000000" fill-opacity="0.1" stroke="none" stroke-width="1" stroke-opacity="0.1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-443.19, -119.46)" d="M 523.8388671875 129.9039459228516 C 524.3599853515625 131.4570922851563 526.8628540039063 131.5059051513672 528.1471557617188 132.6498413085938 C 528.8150634765625 133.2450561523438 529.125732421875 134.1239013671875 529.8597412109375 134.6540222167969 C 530.8799438476563 135.3933868408203 532.3526000976563 135.2306365966797 533.6517333984375 135.0539245605469 C 536.2670288085938 134.7005157470703 539.0756225585938 134.4889373779297 541.4340209960938 135.5607757568359 C 542.2706909179688 135.9397735595703 543.0217895507813 136.4698638916016 543.8950805664063 136.7790985107422 C 544.7685546875 137.0883483886719 545.8523559570313 137.1255340576172 546.561767578125 136.5768280029297 C 547.1294555664063 136.1374053955078 547.3374633789063 135.414306640625 547.85107421875 134.9306945800781 C 548.2499389648438 134.5493927001953 548.8052978515625 134.3354949951172 549.26025390625 134.0006713867188 C 550.258544921875 133.2845611572266 550.6890869140625 132.1174011230469 550.9728393554688 131.0013732910156 C 551.5599975585938 128.7042236328125 551.7288208007813 126.2280426025391 550.7281494140625 124.0494995117188 C 549.7275390625 121.8709259033203 547.3202514648438 120.096923828125 544.6927490234375 120.2108612060547 C 543.8878173828125 120.2457275390625 543.1024780273438 120.4433441162109 542.3001098632813 120.5270538330078 C 540.2083129882813 120.7293243408203 538.14111328125 120.0620574951172 536.0419311523438 119.9481201171875 C 535.4331665039063 119.8777160644531 534.8153686523438 119.9577941894531 534.2486572265625 120.1806335449219 C 533.8214111328125 120.4063568115234 533.4527587890625 120.7201538085938 533.1697998046875 121.0989990234375 C 532.2088623046875 122.2953338623047 531.55078125 123.6860504150391 531.246826171875 125.1631774902344 C 531.0021362304688 126.2768859863281 530.989990234375 127.2859649658203 529.5538940429688 127.4580078125 C 527.922119140625 127.6626129150391 522.735595703125 126.6186676025391 523.8388671875 129.9039459228516 Z" fill="#472727" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /><path transform="translate(-392.16, -251.53)" d="M 456.1300048828125 292 C 456.1300048828125 292 462.4908447265625 293.6275329589844 464.4480590820313 297.8126220703125 C 466.4052734375 301.9976806640625 471.6994018554688 302.7626342773438 471.6994018554688 302.7626342773438" fill="#000000" fill-opacity="0.05" stroke="none" stroke-width="1" stroke-opacity="0.05" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+const String _svg_tbodbx =
+    '<svg viewBox="66.3 122.7 26.1 10.6" ><path transform="translate(-399.33, -522.83)" d="M 474.8067932128906 647.183349609375 C 476.1205749511719 646.48583984375 477.2727966308594 645.7883911132813 477.3731994628906 645.5000610351563 C 477.3731994628906 645.5000610351563 480.6880798339844 648.824951171875 483.6409606933594 649.857177734375 C 484.6339416503906 650.205810546875 485.5845031738281 650.6547241210938 486.4765319824219 651.1964721679688 C 487.6459045410156 651.8939208984375 489.3143615722656 652.7146606445313 490.8287658691406 652.7146606445313 C 490.8287658691406 652.7146606445313 494.2538146972656 655.5047607421875 487.6482849121094 655.9697875976563 C 481.0428771972656 656.4346923828125 465.6300354003906 654.8071899414063 465.6300354003906 654.8071899414063 L 466.6086120605469 648.9945678710938 L 466.6086120605469 648.9945678710938 C 469.4679260253906 649.1539916992188 472.3147277832031 648.5250244140625 474.8067932128906 647.183349609375 Z" fill="#abb1d1" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
